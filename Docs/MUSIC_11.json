@@ -1,0 +1,12 @@
+{
+  "bpm": 120,
+  "seconds": 16,
+  "sample_rate": 48000,
+  "samples": 768000,
+  "stems": [
+    "DreadLayer",
+    "ChaseLayer",
+    "PanicLayer"
+  ],
+  "provenance": "Original deterministic DSP; no external music samples"
+}

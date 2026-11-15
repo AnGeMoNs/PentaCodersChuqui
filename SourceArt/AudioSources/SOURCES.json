@@ -1,0 +1,29 @@
+[
+  {
+    "name": "ChildScream",
+    "author": "onehugeeye",
+    "url": "https://freesound.org/people/onehugeeye/sounds/511320/",
+    "preview_url": "https://cdn.freesound.org/previews/511/511320_562829-hq.mp3",
+    "license": "CC0-1.0",
+    "bytes": 159456,
+    "source_file": "ChildScream.mp3"
+  },
+  {
+    "name": "MonsterScreams",
+    "author": "gpag1",
+    "url": "https://freesound.org/people/gpag1/sounds/391552/",
+    "preview_url": "https://cdn.freesound.org/previews/391/391552_3268195-hq.mp3",
+    "license": "CC0-1.0",
+    "bytes": 1676073,
+    "source_file": "MonsterScreams.mp3"
+  },
+  {
+    "name": "MonsterBreaths",
+    "author": "djani00",
+    "url": "https://freesound.org/people/djani00/sounds/220014/",
+    "preview_url": "https://cdn.freesound.org/previews/220/220014_2533882-hq.mp3",
+    "license": "CC0-1.0",
+    "bytes": 84009,
+    "source_file": "MonsterBreaths.mp3"
+  }
+]

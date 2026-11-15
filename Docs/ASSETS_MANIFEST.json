@@ -1,0 +1,1782 @@
+[
+  {
+    "path": "Assets/Ecos/Editor/EcosSetup.cs",
+    "bytes": 9771,
+    "sha256": "a39ee6004cceee528209a2ef16d427e0b70bf20246d9c79674780c5d419a0285"
+  },
+  {
+    "path": "Assets/Ecos/Editor/EcosSetup.cs.meta",
+    "bytes": 240,
+    "sha256": "32d59b5f82bf98d16f009cc22641392159ca470246994c5dc510f46185b2d9ff"
+  },
+  {
+    "path": "Assets/Ecos/Editor/EcosValidation.cs",
+    "bytes": 13515,
+    "sha256": "6e9e3f0fbdf5b6c3ed6dbffa30ebf33c55da0d7fa56908a4c5f84c2ef510a6bb"
+  },
+  {
+    "path": "Assets/Ecos/Editor/EcosValidation.cs.meta",
+    "bytes": 60,
+    "sha256": "d6127bb439e8713e83a25df227808974bd2da04eaaee7b6333100dbb4a200d8a"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Art/Recuerdos.png",
+    "bytes": 2796652,
+    "sha256": "1a660cfa9428d182165d1934e99338ca92cd00ca4ca07f8fd6fc87fe1adff99e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/AttackHit.wav",
+    "bytes": 86444,
+    "sha256": "5726500247acb4de2875525070f6450fa10c139856055ba143c2bb9ae18e10eb"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/AttackHit.wav.meta",
+    "bytes": 396,
+    "sha256": "e6218c4e0e88700369f57bbbac1eee5277ea884210c792f6f9b9acbb1d89a040"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/AttackWhoosh.wav",
+    "bytes": 46124,
+    "sha256": "90eafdf820d2b0a2b1aeaddf20113c8c89efd8ea077a1f039064d0ace237c57d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/AttackWhoosh.wav.meta",
+    "bytes": 396,
+    "sha256": "a4174e1b9dd4026f78ba4c737e600315e3620d21361100571c00b5271b53651b"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Basement.wav",
+    "bytes": 352844,
+    "sha256": "f58ab6edf6338247370008450d1c315dd318db77ced29f21a2c0c45c07692608"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Basement.wav.meta",
+    "bytes": 399,
+    "sha256": "0907d4a87efb4380573ab6260a1e7b3d7f3f55de07ed96aef242cc02996173e9"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell1.wav",
+    "bytes": 61782,
+    "sha256": "b6af528198345b92d494c25495c5a2cd5224a64f94b9d81549f9fdd93fc1a3f7"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell1.wav.meta",
+    "bytes": 399,
+    "sha256": "1e8b288e48e1a1e8b356bb56fa6532fce56bf2b4a359aa8bb0b1bfbf8c0d9936"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell2.wav",
+    "bytes": 61782,
+    "sha256": "63f5758b00e37ca25707b40cd9d0600e4605023de86e225210b3fa5fd1f34c7b"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell2.wav.meta",
+    "bytes": 399,
+    "sha256": "38037da086e41ee62dac27c8e41abfb1fb2974565a16873245a54f341d94413c"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell3.wav",
+    "bytes": 61782,
+    "sha256": "d4f4142136523946860d78ad397c01ea4de00146472228d44e215d02c3346d4f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Bell3.wav.meta",
+    "bytes": 399,
+    "sha256": "1533cf99573a5f49ba0e0a9b7244fa70efecb547f9bb45f9811e8f54e68810c7"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/ChaseLayer.wav",
+    "bytes": 1536044,
+    "sha256": "80c1dd5d18cc52c986b4584a64c27493b2d0e079c629292ef257206ee5e1a9d9"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/ChaseLayer.wav.meta",
+    "bytes": 396,
+    "sha256": "576facaa9399d6b7eb56a7491a4dc7cb89b7fb48cae196f76a0402fe00cadd6a"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Collect.wav",
+    "bytes": 19888,
+    "sha256": "e1e505ef46f7e2b5abdcc543b9087ad503022753830659f98987b229141590b6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Collect.wav.meta",
+    "bytes": 399,
+    "sha256": "be2c3cfb77f5c9ba166feb8745ca10310e2558e6be5839004d0d158fb8577bba"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Death.wav",
+    "bytes": 79424,
+    "sha256": "5019fabc74dfb31ac9752a17a1be9ac3252fc81ff7eef25812b8b1f7073941f0"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Death.wav.meta",
+    "bytes": 399,
+    "sha256": "01201f03d5f2f0692f4eb7d7628a6e5a054c137b82142f834bb8a6e0d9dc9dbb"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DistantScream.wav",
+    "bytes": 224954,
+    "sha256": "82c1238aaa5242634ab23abf31f767da61076eb004dad7347dee4ab02f01a299"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DistantScream.wav.meta",
+    "bytes": 399,
+    "sha256": "f8d696e56cf6d8e8582e32f6675662bb2113f837a7642201b71f05f9cd104f69"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DoorSlide.wav",
+    "bytes": 61782,
+    "sha256": "884218f69abe0cbd4e7f3bfa35e8d0ed8fb16699ba475d8ec15df9112e0e10d2"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DoorSlide.wav.meta",
+    "bytes": 399,
+    "sha256": "9c601fd20b74ad865f5dd23267257bec5e72a068be60a5d43b071b831837ac1d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DoorUnlockRE.wav",
+    "bytes": 153644,
+    "sha256": "0cb014507b5fb14cfe748f8ca2e315485c4beb0c0df40e647f8cc9009a96229f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DoorUnlockRE.wav.meta",
+    "bytes": 396,
+    "sha256": "ead5b289fcf50f1955446ed3c1c3180894208eed83ac9bd4ecfbb7de3f98bc47"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DreadLayer.wav",
+    "bytes": 1536044,
+    "sha256": "91b6869668b0fc7c6c2b8939379d3a34f5d3212e04dbf3a595e41fd1acddb963"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/DreadLayer.wav.meta",
+    "bytes": 396,
+    "sha256": "72493d0897a9d352602f4be03fa5f84e8e9c75beec9d6398941c9e1708b642fe"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Error.wav",
+    "bytes": 17684,
+    "sha256": "a1512aaf022de5ca9a9bedf219ad5812f39b50f7415b2b8f3f30de1d9e55ba06"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Error.wav.meta",
+    "bytes": 399,
+    "sha256": "aaa059710a29e0361af44d65f48b7f4ef1cf2bf60fe5cff96b407533fc2631c6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/GhostArrival.wav",
+    "bytes": 185264,
+    "sha256": "3d9f3cb1ea3521a8a974698073f2d96f8a11e12a3aa7097c723f664913d622d9"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/GhostArrival.wav.meta",
+    "bytes": 399,
+    "sha256": "42083e9adbc2fa3c7a052300802b9b867bf0dc3be5a5e7382a24a718616a460a"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/GhostWhisper.wav",
+    "bytes": 277872,
+    "sha256": "a2f8291401e27fba40e1acfa0c05a80eb4bc2e7b1f5b51ecb927ca85c6d8ae31"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/GhostWhisper.wav.meta",
+    "bytes": 399,
+    "sha256": "cea42ebc45fc39211e8b79e6682f20aae6de7f538fd7cfef61cc9bf3062c3cc8"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Heartbeat.wav",
+    "bytes": 19888,
+    "sha256": "09758556bed26a419d2264231d17c41b145ae777e172193315aec63164f67310"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Heartbeat.wav.meta",
+    "bytes": 399,
+    "sha256": "f9e87491a11f5f432d188fc5b828cae1521554ce08424558f9e7446a04151078"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Hospital.wav",
+    "bytes": 352844,
+    "sha256": "18d83c374a4f6c0ee84f7092b3e2bdcbb045de8f08301fde1b7867ad59a50306"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Hospital.wav.meta",
+    "bytes": 399,
+    "sha256": "efa78cead7e2940d60d3e7f67941531758115d15ad7b79102bc1aee4d5d2393b"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Memory.wav",
+    "bytes": 176444,
+    "sha256": "6729b785770c16e79637251011257ecc4c6004121ec37e4f7052428d51b897e6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Memory.wav.meta",
+    "bytes": 399,
+    "sha256": "3412f4754e87bfe2bdfa426d8150abdaf34707b74c77c96681c1405ebca8d8e4"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/MetalDrag.wav",
+    "bytes": 194084,
+    "sha256": "a1d481334d5b536841a6cb339bc09464e1dbbe06b548b26dc169af14f15190ac"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/MetalDrag.wav.meta",
+    "bytes": 399,
+    "sha256": "0767c71641ee92a0ba92d88939a53eb42abe7fc552091daf2e296d0cf59b458c"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/PanicLayer.wav",
+    "bytes": 1536044,
+    "sha256": "19d0daa02e12200af17821162250800e450b73989efd7428b039594eceb7e244"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/PanicLayer.wav.meta",
+    "bytes": 396,
+    "sha256": "54bb527572b3dcaffcac3f9b0ce6b161254dcc7bf87b929533ac4f191e88cc58"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/PipeKnock.wav",
+    "bytes": 79424,
+    "sha256": "4412fd3cbe8f357ba3bd9887f00b00260f1fb39e51c4d34a24a04b3e11a3ac77"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/PipeKnock.wav.meta",
+    "bytes": 399,
+    "sha256": "7f29d57aeda9cf4d5ceee0d54fbe6b0fd40df53a5406a965bd30ca2732a5d888"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/REMenuClick.wav",
+    "bytes": 13484,
+    "sha256": "28efde10306907c6a64150df04b87889ec81c0d576f572281b0e914296dd2a63"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/REMenuClick.wav.meta",
+    "bytes": 396,
+    "sha256": "923788b9751311a328d7ef1e1a0affb3afa63d340ae24cde3b732a3710626093"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/REMenuConfirm.wav",
+    "bytes": 43244,
+    "sha256": "0efce60a4acffc578dbad37533c08b30fa408cdce6876272275d065bd658d961"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/REMenuConfirm.wav.meta",
+    "bytes": 396,
+    "sha256": "b9e7a2a5164d2cc3b50afde59ed4fd1fc6f56d7299ea1fb1d966a59259d63020"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/RadioStatic.wav",
+    "bytes": 384044,
+    "sha256": "81467c73fd0ba3436b3cb231a18dd25b15ba37d56a4634a1a8636da493a906fd"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/RadioStatic.wav.meta",
+    "bytes": 396,
+    "sha256": "fed608a9f6a62fcd6ce564b577109d88a65bcffb7931fc7d7134b2b0f823c2bc"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianBreath.wav",
+    "bytes": 304364,
+    "sha256": "b52430cd0122a97e7ed06dace1abaf30b8ee75feb0a815ffb4ee08d77ce1ae66"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianBreath.wav.meta",
+    "bytes": 399,
+    "sha256": "e37844f2e6c527c2e0b0a4cff92e98b2a1e7447ee3c85d76afad22b6502ce2e2"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianScream.wav",
+    "bytes": 473324,
+    "sha256": "0e0a0ac5f150baf8c7a1a14db03c903ae769c6acd9fcb47e58a6716e419e6500"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianScream.wav.meta",
+    "bytes": 399,
+    "sha256": "50bde53a26834fd7276ad1321dc82080970993be540e3e07674d20cd85a4bcfb"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianScreamB.wav",
+    "bytes": 412844,
+    "sha256": "802c871a3eed52cb383cc1a5bba628baaee7d29d7f04365268770631aab396ac"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianScreamB.wav.meta",
+    "bytes": 399,
+    "sha256": "9111803b809ae2b74954db80bce80e82f43c26184d38f7fcc7caf062dc5a75a2"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSnarl.wav",
+    "bytes": 362924,
+    "sha256": "88055f08820f59f57bb454fa3bcba65c9af4d045fef13f4e84d27d6cca1d703c"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSnarl.wav.meta",
+    "bytes": 399,
+    "sha256": "35d516e0871419c9e00259276869db56e09a67d860547d6bf1c370565e51bf1c"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSnarlB.wav",
+    "bytes": 513644,
+    "sha256": "d848b957bb4860e119223abe8f7110e49d6dee0512fa5fb93a33ce28300984f0"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSnarlB.wav.meta",
+    "bytes": 399,
+    "sha256": "ab3d4453b83d2260a836adae0188890c06dea4e230423dbb7c5317b5f9912831"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSob.wav",
+    "bytes": 377934,
+    "sha256": "76f99e241c171e603b26b24437b2861d6733db547e3d2f3bcfcde487a348d077"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSob.wav.meta",
+    "bytes": 399,
+    "sha256": "e6044944c1a211345741c66f3b8c45e6484467db510f5bafc8de9c7587aea760"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSobB.wav",
+    "bytes": 381538,
+    "sha256": "45ca761054e059a46daaa125820ba0c4803b660e6942042e9999f384387b1c60"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianSobB.wav.meta",
+    "bytes": 399,
+    "sha256": "ff15c73a513ab5004cf6cd9e3758cb37b221f9d4dc66b7570219fd089e3d7378"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianStep.wav",
+    "bytes": 55168,
+    "sha256": "9e44ac7afa93659e207d8ccf262be21104de3dcfc3af3c91d5da15004b2100e2"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SebastianStep.wav.meta",
+    "bytes": 399,
+    "sha256": "47015a8d3439c48717e848e77f514a46212ba229b70b25921a3d5643fac1d0a6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Shutter.wav",
+    "bytes": 14744,
+    "sha256": "4b5e3198c246ba28646195c964790ef00f361f5b40df3b17a543af844be05678"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Shutter.wav.meta",
+    "bytes": 399,
+    "sha256": "085d98efbba92eb252ff114d3e9a8adbb9b4b7cac277f1c5e6fa2ad7e18768d6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SirenWarning.wav",
+    "bytes": 403244,
+    "sha256": "853c65a941bf180d797c6c6e641dd198c54f83f3b3ad004201a4e1bfd399819b"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/SirenWarning.wav.meta",
+    "bytes": 396,
+    "sha256": "b4763010946bc87611494be6ff367f1bfc58edc3111c444bb17d4e0569209183"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Step.wav",
+    "bytes": 8864,
+    "sha256": "908a1674dc959c4f69e6e0f6a90ab723e772d37d7519838880515409b2bdc3ee"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Step.wav.meta",
+    "bytes": 399,
+    "sha256": "2ccc1084bffa1203973fb0260cdec0339a9e61717782368966aeff0ce3eb4249"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Tension.wav",
+    "bytes": 352844,
+    "sha256": "5d436aa3ba1911a7ef38c0d0cac3b1386fb8152a7a7aedde09b8d5eca9479401"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Tension.wav.meta",
+    "bytes": 399,
+    "sha256": "76b992bab997cab45592a7ac8f3bb3fd4ac3e50f17d0175220d29684f6d6b3fb"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Theme.wav",
+    "bytes": 1411244,
+    "sha256": "5d5da1d8cd97e355773d22a9732b11d618de9012cb042c872d9006d293ff45f4"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Theme.wav.meta",
+    "bytes": 399,
+    "sha256": "d2ab8171c82f874e02caf16614e0e90b15c018cb17f387d4d024e44b488db937"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/ThreatSting.wav",
+    "bytes": 192044,
+    "sha256": "ad103c422983db97b6c8472e6d33e2158b970bfb67f673c1f8241e79bd34c67e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/ThreatSting.wav.meta",
+    "bytes": 396,
+    "sha256": "1e1227116719e31903ab271c609971438ba1de779cfea548197344783204ba83"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Unlock.wav",
+    "bytes": 35324,
+    "sha256": "281dae25a4d05252528ecdded668f4555c3ac6d3cd752cba100c17cf68f94eb4"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Unlock.wav.meta",
+    "bytes": 399,
+    "sha256": "6f7e34fe4decb24e9dd9047f5d682c25f1d70cf63a2c67fcb98d0b98795f66ab"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Wind.wav",
+    "bytes": 352844,
+    "sha256": "11246f07c3bdfc943c20cd8129a38bbbae5a5b3b6e603d3fc7b6c77489014bb6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Audio/Wind.wav.meta",
+    "bytes": 399,
+    "sha256": "f3e65651271893d5fc4a78b20420e6ebd6d7beebbf825c5bcc0e5192a9ec5870"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/ArchiveBoxes.json",
+    "bytes": 204028,
+    "sha256": "ef764204b19cba4e83ad7c39d4b58db2e2baa82f9ffce178a732f4a15ab4e80d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/AudioTape.json",
+    "bytes": 235731,
+    "sha256": "7bf779ae114611d47b5cd8e5f15b5332d51e3888b0e19228f86f244a888c715f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/AutopsyTable.json",
+    "bytes": 476402,
+    "sha256": "fe82de80377fb334c4bfe4e81ad501bdfc319006cce8713f199d6279fe799f83"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Battery.json",
+    "bytes": 1009588,
+    "sha256": "46b7d284dd55f4247e9797f194d3b111541a534a9cee1515c8c05113b1beff48"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Bed.json",
+    "bytes": 4335565,
+    "sha256": "8abc6d2f9a24abd9fe5ed65ef119b2ea99693d9554adf127c17c06426c6373f5"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/BedsideTable.json",
+    "bytes": 291616,
+    "sha256": "90162f25e7184c056111db817d7cb28608b5f0ae72eacd7740b4d36c9e4e660e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Bench.json",
+    "bytes": 285727,
+    "sha256": "6135ac31aca464ea11debf9612b73a8806b678d088e54fe25b01201f0b38b019"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/BioBin.json",
+    "bytes": 1091596,
+    "sha256": "96bbfb8a5704131f8887b400e052dce5d2842b99ed902ec7caca1be8aef84dde"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/BrokenWindow.json",
+    "bytes": 11144,
+    "sha256": "7e02dda86002c13c7c43661e08931fff755f3a6b735e0cb0e6cca92aeaf0971e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Cabinet.json",
+    "bytes": 697426,
+    "sha256": "e9e0e91969d82fe0f6ce963fceaa0b357812477de8a813b32680036e24fea60d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/CableBundle.json",
+    "bytes": 1109355,
+    "sha256": "32b0d38b398b030eae6ab05a7f9689ffa1ea5a2f02791585f25a551f22e30eeb"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Camcorder.json",
+    "bytes": 1475674,
+    "sha256": "ce099eaabf0a3e679769318970f4ecd643f8f78b9bec5fee4ba241750f28f332"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Camera.json",
+    "bytes": 98718,
+    "sha256": "d2d0fb0494259bc9804bbdef46f6d77f2456f2347359b3ddbcde7c02a17640ad"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Chair.json",
+    "bytes": 436440,
+    "sha256": "b9f339e91d1b14c64d233dc81ff1034a1f7a5a963de469472aa06c86edf2e944"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/ChildBody.json",
+    "bytes": 4639881,
+    "sha256": "639a2945b98702b7be0927e4fc64c8bd918b62da5ab8af5253e7924feae0f6c7"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Crib.json",
+    "bytes": 482340,
+    "sha256": "72e6f80a8aee2c4915ecca300cdc905e0b697dd82f501969095e9b5e29430243"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Defibrillator.json",
+    "bytes": 3598821,
+    "sha256": "9d4aceee969345fcb8f6ce0201a50b4383c11bb16e1441043e3f26ae8b80f9c8"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Desk.json",
+    "bytes": 589174,
+    "sha256": "69552a5cd00af77afbbee09316b891f2bb172837d3bab6d90bd23e996c5657c1"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/DeskLamp.json",
+    "bytes": 1130845,
+    "sha256": "1b1448a7996d251b1dcb1d43508ab8326f273247a87d53d608c76f777cfafc60"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Document.json",
+    "bytes": 18328,
+    "sha256": "06583fd1e4323c2ce0e374fb0b231feb3014fcc9ffd4c6131258d1cac292cefe"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Door.json",
+    "bytes": 412902,
+    "sha256": "db2a49e0f9c2f8f0cdbff8bd8d3c50da92026c52858fb721923ac4ecbed9ca74"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/ElectricalPanel.json",
+    "bytes": 689502,
+    "sha256": "df1bfdda8bc7eda9c6b43de7cf651aea05d841900313dd7d44e38c4d0048e0b0"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Extinguisher.json",
+    "bytes": 829293,
+    "sha256": "d34842a32b7a9f493786c464ad360dfe3b52543b8665935b4200c1f9ba675f91"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Fan.json",
+    "bytes": 355732,
+    "sha256": "03c406d3e2f3984ed6d73987799e9076acb81e58185872381035e614b8fdaaa7"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/FirstAidKit.json",
+    "bytes": 112116,
+    "sha256": "f2f3bf7401ae9e610b7daea4fa3ec44e1a40efff09efceed425722dfaf9ec38d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Frame.json",
+    "bytes": 700323,
+    "sha256": "4812510347e51b97acba08340d17136cdab7b6eea7afc75a3845b4c0b1b7a567"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/FuseBox.json",
+    "bytes": 740013,
+    "sha256": "b5eccc19a96435e479106bde70299d93663cdf3ddfd38df100676d94b6e25c97"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Generator.json",
+    "bytes": 1341305,
+    "sha256": "60a72e9356cfd7b1468ad455d713391ecc0990dab1624e68ba8147e623facaf6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/IVStand.json",
+    "bytes": 1890284,
+    "sha256": "bb6f90993464a7ff083a02426051d76cc1da1dcf4527d4d7c9a114efa3fcdb19"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Incubator.json",
+    "bytes": 1641081,
+    "sha256": "f9e0a2a3af3fb25388db56cca2d1258c2857d95c2b72622d3c02b35b7845549e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/JanitorCart.json",
+    "bytes": 1771986,
+    "sha256": "4405c7b21775737d46c911ac5070df0d89c66357c77d998bf462710d40d1e2e8"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Key.json",
+    "bytes": 830439,
+    "sha256": "69ed54c72157252f2f10a70ad5398def321265e4903f0e9425677fbe7d00e8cd"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Lamp.json",
+    "bytes": 263602,
+    "sha256": "b3311f297e1e11665ecd12c6ebf0898d6d31c19ae9ad7fcf09d104a092a692ee"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Locker.json",
+    "bytes": 502815,
+    "sha256": "0fb613c921fb62b4a8051e2167030f3b53f6b2e74017241c6f20d3192feeeb19"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/MedicalTray.json",
+    "bytes": 379286,
+    "sha256": "38e68d502154127eb8a41b8b2746b2d783d9d0f6e6bdcdebad40ef8d6d0ee42d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/MedicineShelf.json",
+    "bytes": 1017212,
+    "sha256": "6715df8c4fd68930c0c6c804d671847023223bdec7220c1cfe4e94ef5fb02ba9"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Microscope.json",
+    "bytes": 700957,
+    "sha256": "ae2d88f47c5b48f00339bd3c373316874e788f883192b9526bf38f5fc86806c0"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Monitor.json",
+    "bytes": 1115046,
+    "sha256": "4fabb39d3f766b1ee454e66b29c8f2e0ff372dac75b8e79ec747d144a168ba65"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/MorgueDrawers.json",
+    "bytes": 1796220,
+    "sha256": "fa21365d039e649488aa21125784dbebd70d3f8b6c00685ba86e22f52f133a05"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/MotherBody.json",
+    "bytes": 4639910,
+    "sha256": "e5c756483a7b00c169eb8554af2baa12c9bc29474f003e0c0d924db47ba8397d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/OxygenTank.json",
+    "bytes": 1147454,
+    "sha256": "4b36f11b549f2e328a95583c1d646e74136245d2ba10008f372489b20523a962"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Phone.json",
+    "bytes": 727230,
+    "sha256": "212162173807f7a5ef146b4e85de0f114527ff5324444b2a945135c3b2e0f5a2"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Pipe.json",
+    "bytes": 854114,
+    "sha256": "d3b701c622da27db556c4e8a138ae97e4cdd30bc3c85f9a9fcab8e99f260d503"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/PrivacyScreen.json",
+    "bytes": 3844547,
+    "sha256": "3d11fcbf2e1162aa73422b90165cac8cbeb07f4d8bd89fdb7e00ea81387c46d9"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Radiator.json",
+    "bytes": 708781,
+    "sha256": "d1ae75975f7ce9f6cbf828c61eb772b7ecd4f28dc9d268b497937f94237053de"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Recorder.json",
+    "bytes": 842726,
+    "sha256": "fe7ac24a9955e5abf7272ff53a199fb2c38e887c0f7bd4e76ad46f65e4839036"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Rubble.json",
+    "bytes": 3005007,
+    "sha256": "9a040e2b6e765d658d5bcc63a2835d69556e7242e2d3019ed8b84bfef85dea04"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Sebastian.json",
+    "bytes": 12123404,
+    "sha256": "63a21b0bd545343ec5a29056b758f775345c77b462ade4dfe6609e2b49c2eb80"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Sink.json",
+    "bytes": 631113,
+    "sha256": "15ca59652d536da6d3ef390e3ffa0a7c30f7930bf6254220e579571887ed67c5"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Stretcher.json",
+    "bytes": 1166878,
+    "sha256": "33da0f15085929498aeedbae87b9ad9e043522238b38654c2d14f117ba6755de"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/SurgicalLamp.json",
+    "bytes": 2006935,
+    "sha256": "67043e76b6afb4877626fd013e85d66427913da02d3a93b39dc107fe0002f890"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Teddy.json",
+    "bytes": 2987577,
+    "sha256": "0c5d95e01998d19f11feb735d09026511f0549457f161a7db1d1604948dca60f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Trolley.json",
+    "bytes": 1420201,
+    "sha256": "d08e1fb2328b3c6d1353e744b9d8591d4b3ac6b7f75be6e89f69144b53050d2f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Valve.json",
+    "bytes": 323563,
+    "sha256": "a81b7f80748f47e658261519c4a0904af8390f98ff3fd67545caf805ccd74a3e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Vent.json",
+    "bytes": 505890,
+    "sha256": "75379fcde34dc000db7850167d842f2791943642da1747ef5f327865d45511bf"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/VinylSofa.json",
+    "bytes": 329048,
+    "sha256": "29d5ea41551d7036cc54c058b644c67f0419b6bdced04d14efd827c10b315cad"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/WallClock.json",
+    "bytes": 2279675,
+    "sha256": "c1eee10b3a4dacef1fe57679987c17ea32289ff370e78aa8ab90f3299548bef1"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/WashBasin.json",
+    "bytes": 2139654,
+    "sha256": "e829943b8cc4354ab79c39bc035d2580219a6724bbd409cf856d7d74d7daa56f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/Wheelchair.json",
+    "bytes": 2676782,
+    "sha256": "341ee0a762c9c3a1c4d7133856700bf8f2738e2f4526b0b55c0b349af6539c11"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Models/XRay.json",
+    "bytes": 1182782,
+    "sha256": "f9b51b2ba18b40fd0c663a3911d6a959544cf2a468e939fd8c2f2c55d3a59fad"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/Albedo.jpg",
+    "bytes": 3532899,
+    "sha256": "8ff288fc17b88a7e1c41c44ca71810e67f0150f1f037aee1d2591146d35835ec"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/Albedo.jpg.meta",
+    "bytes": 516,
+    "sha256": "79595f773b50c4acd6e0fa3eaf53d8f29fa688d56ecbfd4b56e868327cc8a431"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/DetailNormal.png",
+    "bytes": 10190987,
+    "sha256": "f61b0d42b4ab63398cef92735211351ddc5a2ed27d082c67845052f9bbab295d"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/DetailNormal.png.meta",
+    "bytes": 516,
+    "sha256": "8fd44094f475bbf5c4e383f8c97b97da94cafbc620614c7823fc4c0b489bb14c"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/MaterialMask.png",
+    "bytes": 5774036,
+    "sha256": "e4adfed54365f57f73c96d1e7f429dfc06adc96b8a6821ed2d81bfff73f0d089"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/MaterialMask.png.meta",
+    "bytes": 516,
+    "sha256": "774d69d030de1307e6f90876fa11e09c7a2e7ad99d0008f69e22f4730eee8791"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsAlbedo.jpg",
+    "bytes": 539351,
+    "sha256": "fea91ce3204af8f0bfc5c346a31d38e055ba69cb08849355c7827df3a1a111fa"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsAlbedo.jpg.meta",
+    "bytes": 516,
+    "sha256": "5775a42178bb5951167798165eb1fe215d1271e30d94118ea8af88b7a10ee7b6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsMask.png",
+    "bytes": 733856,
+    "sha256": "b3e5815a96fa29fc0b888ecd6ea5781b03b0082f94f8f914873533abfef520a0"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsMask.png.meta",
+    "bytes": 516,
+    "sha256": "e5ba5c53c82e200a2e15d72a65710b6160849a894de6d8d7a1006bca34e68ce5"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsNormal.png",
+    "bytes": 1406336,
+    "sha256": "9f409e903d4583742661aad5d8b5e0013f3483147e98953eefe571f26db21465"
+  },
+  {
+    "path": "Assets/Ecos/Resources/PBR/PropsNormal.png.meta",
+    "bytes": 516,
+    "sha256": "6fb90c9a9be98bb3c1738d710a4c706ec25186fb3bab768f1efeffaf86657fb6"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/ClothAlbedo.jpg",
+    "bytes": 1344586,
+    "sha256": "a9aa5d34f3f184520ec9247d6a2347091e8205fa773537f697991edb18bfd250"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/ClothAlbedo.jpg.meta",
+    "bytes": 530,
+    "sha256": "b1ed6cac355c21682246f5b8fcafe00e0d40527af2dd2a43009f49dfd61e77a3"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/ClothNormal.png",
+    "bytes": 3614994,
+    "sha256": "05fa86df82fffe4a09c77c38adcf913b7f13c4ba3343401a54df4986f8c66f44"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/ClothNormal.png.meta",
+    "bytes": 530,
+    "sha256": "c5489c8e4b7c5fc0872e26a6a965eef77b8d18f2b28db1685f2ce9421eb7df9b"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/FaceAlbedo.jpg",
+    "bytes": 698488,
+    "sha256": "4cbdb3e910dd3408bda6979e43b62ea4e792ae559a8af21e38aa13ab4c3ea528"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/FaceAlbedo.jpg.meta",
+    "bytes": 530,
+    "sha256": "7668287f34eebc9786f8d25fa02b2bb4e25264f49bfe9f421f94da8f330d357e"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/FaceNormal.png",
+    "bytes": 1678078,
+    "sha256": "6c5c8b72c386d8c204f3e9a435eb07a5c8f04b7f146b04c54c39cf57a6bc70a4"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/FaceNormal.png.meta",
+    "bytes": 530,
+    "sha256": "269a4016ca0f23baa2600bbdb1c41bd7d7d5d5070d3e025d8c9b32f84ab8e713"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/Motion.json",
+    "bytes": 16323,
+    "sha256": "c6a5da46fe119791ba658180fb931f2c70de4c9baa21e696e947aea0a6064254"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian/Motion.json.meta",
+    "bytes": 158,
+    "sha256": "021330a3f99e24877685c60fdfd4c33cd8300a427f717bb6b186449375753e3f"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Sebastian.meta",
+    "bytes": 172,
+    "sha256": "66dc3eafa173bf859a4aa8f3ba664bd8e84581064951ea96b37f5057600e2368"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Shaders/Architecture.shader",
+    "bytes": 2656,
+    "sha256": "1cffd41ee92833a98d08c836ccc3ef0cad92659349e2ee0d107613f9937a1349"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Shaders/Ghost.shader",
+    "bytes": 2362,
+    "sha256": "6e918f2d3fa19813dc3b3308adb3775536910de5a5624a48bfbe66542645fb74"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Shaders/Ghost.shader.meta",
+    "bytes": 148,
+    "sha256": "70f9f165feb3bf9edd8f1407e0a67dc82e0521b83ebf9167659ce3c01c7d69ef"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Shaders/Grime.shader",
+    "bytes": 2466,
+    "sha256": "3c6cb5d0942a3760928b8c5bb4eafcffcfa3ca76ce7242352fe78be13dc8b5ab"
+  },
+  {
+    "path": "Assets/Ecos/Resources/Shaders/NightVision.shader",
+    "bytes": 2121,
+    "sha256": "3731df03d1c30e414f398fc173d959f40ea4dccb283330547cc9224bd85fb216"
+  },
+  {
+    "path": "Assets/Ecos/Scenes/Inicio.unity",
+    "bytes": 1122,
+    "sha256": "7c3895d8cb281bb6cb416c8e11cbd9eedf43379d073576cd1b13bb48434cd4ea"
+  },
+  {
+    "path": "Assets/Ecos/Scenes/Inicio.unity.meta",
+    "bytes": 152,
+    "sha256": "e7134b7568ab4318831570485e24918ff9b2a76bf40cfd5b9d7f298cf44aacdf"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/AudioDirector.cs",
+    "bytes": 11758,
+    "sha256": "c005cb4e2a63bc4ecf6179e285949efb8bf477f7a93638f0229f2e6b3ab188ed"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/AudioDirector.cs.meta",
+    "bytes": 240,
+    "sha256": "1a54ceee883b033baf373129d2a70631294b4021f542fef030d6e1406e21b290"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/DoorGate.cs",
+    "bytes": 2082,
+    "sha256": "fd4ebcd00cfee6998179b1a048a440e1e5e4da3129aa3abe25700a95e5657af8"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/DoorGate.cs.meta",
+    "bytes": 240,
+    "sha256": "613f9b139ffd6e6be58b6121bce0cfc88e342a243b45e30ea5a51bf16fe7fd96"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/GameSession.cs",
+    "bytes": 40267,
+    "sha256": "f7054a3efb005cc1829a0a008cfeb7b8f4b4d7c0692514584612c828509f7221"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/GameSession.cs.meta",
+    "bytes": 240,
+    "sha256": "86143a930637eeb4592b2e8269d746d4e32274ca9b57605eed92309f52686fca"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/GameUI.cs",
+    "bytes": 42375,
+    "sha256": "14647934361ff42801e494609e359eed47b252802cbde7631206689ea2eb54ae"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/GameUI.cs.meta",
+    "bytes": 240,
+    "sha256": "585c58ecbce0da520f2d99b52558bc651c0554e27844f63f8dfea006f00c8afb"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/HospitalDressing.cs",
+    "bytes": 11074,
+    "sha256": "4b2ee652f412b29af20afb7898ea8c00a944f8dfb6095e9fe7907de7ff8a4ac7"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/HospitalDressing.cs.meta",
+    "bytes": 240,
+    "sha256": "f1be18a945ca7f2314763cd7a52f03ff5c23699ec7f9777221eea9ccb226baf5"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/HospitalMap.cs",
+    "bytes": 5249,
+    "sha256": "33685a289f074c2e3d4772709d47ecd529c85a020d380344b2e24c8783d8487f"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/HospitalMap.cs.meta",
+    "bytes": 240,
+    "sha256": "1b155176bf82fd32286f6ca028a54b4596bd9dec720601eac6327eb15df1723c"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/Interactable.cs",
+    "bytes": 1499,
+    "sha256": "4fc19cc724c19446edbff2d7161a8576fad2e54b75a801bb3fc7ea9a4b7af8ec"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/Interactable.cs.meta",
+    "bytes": 240,
+    "sha256": "a32587af938471026c1a4847752834e8d255360647fa4778a8c91f2a92819e73"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/LevelBuilder.cs",
+    "bytes": 15720,
+    "sha256": "d24e1d370f8cf9bd0df636c3fa44d84953b929509165afe3ffc9d43b06139786"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/LevelBuilder.cs.meta",
+    "bytes": 240,
+    "sha256": "14bfb23fd36ae43e4601a1ba21afc4450f226fd402825b5fe6f1727b1389ca0b"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/ModelLibrary.cs",
+    "bytes": 5291,
+    "sha256": "ec14bfa16d6545d18a3ea0cca8ed444aa164a9ab70f50ef7db7604eab1cae1d7"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/ModelLibrary.cs.meta",
+    "bytes": 240,
+    "sha256": "b1d4618584ab89e89df047b2eb963b3e8b481f91c6e0ef2f5aeb333c099ec0de"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/NightVisionEffect.cs",
+    "bytes": 1179,
+    "sha256": "3a4ab3d82c4ee5a2211e49193c8eaeac102970b88c54bfb01480e302c4cd12a1"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/NightVisionEffect.cs.meta",
+    "bytes": 240,
+    "sha256": "bd3b8b928135a18355b5be8f441b54356472bbe7dd12e944003668fc693349b7"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/PlayerRig.cs",
+    "bytes": 14904,
+    "sha256": "5cf331e4c235ae818cdf4584826370d649ae13e094cf04fea424f45c98b9dc52"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/PlayerRig.cs.meta",
+    "bytes": 240,
+    "sha256": "8ac0156b79bf96de5fe6eb6143671a4c02d481165276dd01cd95ed6be58907d6"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SaveService.cs",
+    "bytes": 2978,
+    "sha256": "a4a6cbe1015142edc96a07afab7525ea2c934b9755fb72b79dce04e375d1f14c"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SaveService.cs.meta",
+    "bytes": 240,
+    "sha256": "0f7f78dfe32a7b95d59777d50f6ba1b844b052e813b3d7965f65d69d8eb4222b"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SceneBootstrap.cs",
+    "bytes": 582,
+    "sha256": "d96a953beaa439536a56074e3c0d3c89de8bb2a7ef5cf2aba341cd6a4beffeea"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SceneBootstrap.cs.meta",
+    "bytes": 240,
+    "sha256": "4ccfdc1abebb16abc76f084fb7d1e3d38378baeb9a5903687ea972a071d19117"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianAI.cs",
+    "bytes": 17039,
+    "sha256": "1f89293ed27b30ce4f578467d761219e60dafd9a7fa4d646e49e85abe17caedc"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianAI.cs.meta",
+    "bytes": 240,
+    "sha256": "e2470f9a6157fb1237476c55e34424f8627f4c273efd2b104dc735809ab15360"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianAnimation.cs",
+    "bytes": 2547,
+    "sha256": "a9c6827699435f4eacefcfcfdc9e483ab24f10137db845f089626f729418b8a9"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianAnimation.cs.meta",
+    "bytes": 243,
+    "sha256": "a999ae3b3fd2e890987cbf63cddf407e234b1033bacd56301e5a06e7718a73c1"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianCombat.cs",
+    "bytes": 1866,
+    "sha256": "201ea46209aa9f377169b118122de0dbd97817b198a815a6167a54ba8f7b4753"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianCombat.cs.meta",
+    "bytes": 243,
+    "sha256": "4e693c3f450df080365deb94866f95979dd3c2749d487638efa60305c5054252"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianRig.cs",
+    "bytes": 7609,
+    "sha256": "202c0469619b8fb0769be2e8543612fb34529991c33d8ab15ad9b8e1f7e6d0f5"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/SebastianRig.cs.meta",
+    "bytes": 187,
+    "sha256": "3b2b6a54d8266d442940f62915dc59def78d4b09bada04b89fa7d13bf0f7aa3e"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/StoryData.cs",
+    "bytes": 5802,
+    "sha256": "4ae6622c643e8bf5a620eb1c6ed00a18acc6da627f2734e4e31d8fc3dd6971e0"
+  },
+  {
+    "path": "Assets/Ecos/Scripts/StoryData.cs.meta",
+    "bytes": 240,
+    "sha256": "4ebb2d7e1bcf867a38aa55455554a7ebc255eb5489912b457cfada6911bca5f7"
+  },
+  {
+    "path": "Docs/ANIMACIONES_Y_MUSICA_11.md",
+    "bytes": 5453,
+    "sha256": "41a326a0afb74026618d85c628c791be9e0b82df6e3e84f80b2f18d4fd76d2bd"
+  },
+  {
+    "path": "Docs/Animaciones_11.jpg",
+    "bytes": 257586,
+    "sha256": "dacdbd241e2adedf2566a959aeeeeb0f5563ab1efa7324bb6c98b0a24c4feddf"
+  },
+  {
+    "path": "Docs/CAMARA_Y_OSCURIDAD_6.md",
+    "bytes": 3457,
+    "sha256": "9d18646764a0587bcc7b6b6362db8928ea95d3b97a22123598746729cd9d945a"
+  },
+  {
+    "path": "Docs/CAMBIOS_MATERIALES_Y_MODELOS.md",
+    "bytes": 3921,
+    "sha256": "9c019a49ddb53d0b49f08a73e0ad22691a3009787d2a00197bd292553fa65f67"
+  },
+  {
+    "path": "Docs/CAMBIOS_VISION_NOCTURNA.md",
+    "bytes": 1359,
+    "sha256": "24c08bfa1584f363a0504c27e59fa646783e3d497b05e5196522df14053e0bf0"
+  },
+  {
+    "path": "Docs/CORRECCIONES_VISUALES_7.md",
+    "bytes": 3432,
+    "sha256": "c7a37356a1cc5cefba5dde1484fcaf766cdeace4f7ef24dfc4d5eb46ccf20794"
+  },
+  {
+    "path": "Docs/CREDITOS.md",
+    "bytes": 3270,
+    "sha256": "0ab46d3570d52d2a8503dc863e39688be5d6cac4fbb92d08590fd565d72593b8"
+  },
+  {
+    "path": "Docs/LAYOUT_AUDIT.json",
+    "bytes": 122051,
+    "sha256": "053f1b4a2a9cee5b8b438956609c52c5b0a2e446b62a92f501c3d82282729c5b"
+  },
+  {
+    "path": "Docs/MUSIC_11.json",
+    "bytes": 222,
+    "sha256": "41610ecd8b2f6e8197cde345962235d2f683bc3d91e3de678685e12892c593dc"
+  },
+  {
+    "path": "Docs/Modelos_3D.png",
+    "bytes": 216329,
+    "sha256": "110f8bb53bf4a14203338b57302eec94cf2d7887632ddb70c72ab3ed4b8e2c13"
+  },
+  {
+    "path": "Docs/Modelos_Detallados.png",
+    "bytes": 1415731,
+    "sha256": "4a3f40335dc80c8f352965b8c2a43ecf99920d7cb021ef12f38ed8a35878f8c7"
+  },
+  {
+    "path": "Docs/Modelos_Nuevos.png",
+    "bytes": 62974,
+    "sha256": "a7bd936a17358b42b8ba81c71dc18c868f4d8bb3140eee347042d367f394613f"
+  },
+  {
+    "path": "Docs/Musica_Persecucion_11.wav",
+    "bytes": 1536044,
+    "sha256": "04396355fa31f985b2608aa8cec183a48664783ce4bea813808866d5fd4906b4"
+  },
+  {
+    "path": "Docs/Objetos_Revision3.png",
+    "bytes": 1523501,
+    "sha256": "3d87c9d535dfff73c4edb2e80ccf4db74d0049f2b44fb54e9e79d3d8dd67d03a"
+  },
+  {
+    "path": "Docs/Objetos_Revision8.png",
+    "bytes": 1448500,
+    "sha256": "4514f0b56b7bf18edd51ad9bc4f31bff17d00b22575ce3325e27a35d930db833"
+  },
+  {
+    "path": "Docs/PRUEBAS.md",
+    "bytes": 3402,
+    "sha256": "70ff9d5a6bc4f9d8606c30283621c47880fcffee61ad7eb4cfac644ddbb99398"
+  },
+  {
+    "path": "Docs/PULIDO_4.md",
+    "bytes": 4646,
+    "sha256": "62b096194a4e4a57f9921e01ccfb7a78d897e63235f01a43376a4388d4b1192a"
+  },
+  {
+    "path": "Docs/PULIDO_5.md",
+    "bytes": 4264,
+    "sha256": "0baebdc4994dcfecd910d6f679fd39dffcfa67679fe520d0bb65aded97fdf528"
+  },
+  {
+    "path": "Docs/REALISMO_Y_TERROR_8.md",
+    "bytes": 6211,
+    "sha256": "41627f4a1086146b0113479ff9a1ae87a8eff11d9962fa2d9eb1b019d621ae79"
+  },
+  {
+    "path": "Docs/RESULTADOS_ESTATICOS.txt",
+    "bytes": 2443,
+    "sha256": "5e388a2543c8a24397f70b23548ce8f6bd6acfa5b65ed80a9f735642e1a7aede"
+  },
+  {
+    "path": "Docs/REVISION_3_ERRORES_Y_AMBIENTACION.md",
+    "bytes": 6230,
+    "sha256": "92ce62a04207650f8db7b5e09dfea7c0354d05f093ddeb4d69689c30adba2121"
+  },
+  {
+    "path": "Docs/SEBASTIAN_10.md",
+    "bytes": 5410,
+    "sha256": "9794ee518302feafd427c3c9e19a165ff9fa0eb4a5d9ae8ca0b05e33fb5956dc"
+  },
+  {
+    "path": "Docs/SEBASTIAN_9.md",
+    "bytes": 2271,
+    "sha256": "9a85d73984735a02e4a6a0f2645bb3288a972aae540a2aeac5a477a2a893e935"
+  },
+  {
+    "path": "Docs/SOLUCIONES.md",
+    "bytes": 1862,
+    "sha256": "0b6d2982ac2269f29a8c10dcac382085833102d507fbfc66744d9a762be8d28e"
+  },
+  {
+    "path": "Docs/Sebastian_Animaciones_11.mp4",
+    "bytes": 1150895,
+    "sha256": "ccdc85fb608f7f29116b1e339ce96a70caaaf23f6eae734de50aad0cba0f35bf"
+  },
+  {
+    "path": "Docs/Sebastian_Revision10.png",
+    "bytes": 842337,
+    "sha256": "9cc71ffe0e4f7ac38645143dba105bf9d1fb5cfcff13aec2bdedca37e5f7c11b"
+  },
+  {
+    "path": "Docs/Sebastian_Revision9.png",
+    "bytes": 399855,
+    "sha256": "814ff093ea35e8ca089cf33773cf162784357d6f82c42de6f4962de924e70e5d"
+  },
+  {
+    "path": "Docs/TRAZABILIDAD_ERS.md",
+    "bytes": 2542,
+    "sha256": "1ab0557519e45c51f994d2b38f9ba0fba7882b8e395d221b52ebb3db76f44933"
+  },
+  {
+    "path": "LICENSE_CODE_ASSETS.txt",
+    "bytes": 1519,
+    "sha256": "5c08c08ab87df49970a086305c6d8ff842b023c0ced0782f12a6dcf5696534a2"
+  },
+  {
+    "path": "Packages/manifest.json",
+    "bytes": 197,
+    "sha256": "a4eb406226b43892a0f79643e3ab1dbc6d58db6e906440fdc9fb958fc34ab568"
+  },
+  {
+    "path": "ProjectSettings/EditorBuildSettings.asset",
+    "bytes": 257,
+    "sha256": "c18feb83413deee3730e16e9e1d1e4702978cf42469301189e7da314a168c62b"
+  },
+  {
+    "path": "ProjectSettings/InputManager.asset",
+    "bytes": 710,
+    "sha256": "8eb54652ede12ac37f1a9d442010b8a2036b295f9b8ba5ab6207adc8916d4882"
+  },
+  {
+    "path": "ProjectSettings/ProjectSettings.asset",
+    "bytes": 297,
+    "sha256": "fbb64e941be0b92cbac10f345152d8062a2d3ea1b6e234a932a02d7eaf4fa5cc"
+  },
+  {
+    "path": "ProjectSettings/ProjectVersion.txt",
+    "bytes": 29,
+    "sha256": "43d926e483de1f5fbc59ae36bda619880288ea6761e9ca6e1cf23bf210fa69f4"
+  },
+  {
+    "path": "README.md",
+    "bytes": 3303,
+    "sha256": "3ae4b1042a8c225c45fc573d27e4fd0f1f5d18c70aa73d965386dccf70b0aea2"
+  },
+  {
+    "path": "SourceArt/ArchiveBoxes.obj",
+    "bytes": 190885,
+    "sha256": "adbf78f06608ec03e679cb5320342af31035d63d1139d5c597fca6905d67ecfb"
+  },
+  {
+    "path": "SourceArt/AudioSources/CREDITS.md",
+    "bytes": 1256,
+    "sha256": "9c47b110d8a20f9f6aeca9309bf3572257b09688ac766525fa70dc008c3aed2d"
+  },
+  {
+    "path": "SourceArt/AudioSources/ChildScream.mp3",
+    "bytes": 159456,
+    "sha256": "fd2fdb86281c02231244ada2696ebf81124c2344724ee5ddf7597dc110a77364"
+  },
+  {
+    "path": "SourceArt/AudioSources/MonsterBreaths.mp3",
+    "bytes": 84009,
+    "sha256": "3139292b79a680bd2358c3c9f86b94c284e92a252b54e6719c83717dae695ed5"
+  },
+  {
+    "path": "SourceArt/AudioSources/MonsterScreams.mp3",
+    "bytes": 1676073,
+    "sha256": "5a0f722f2eb04bfc35f29ce53bc8ebda98a5c1daaa81dc0e74c75a1e65a5d77a"
+  },
+  {
+    "path": "SourceArt/AudioSources/SOURCES.json",
+    "bytes": 897,
+    "sha256": "af0933292662087338ce6050af8b2246520cf31c10c31cddbca7b91e9c724004"
+  },
+  {
+    "path": "SourceArt/AudioTape.obj",
+    "bytes": 179012,
+    "sha256": "1454aff9dac4ecd1dd9b9180d3773d277f7c7cda51129b1ae6bd68ccf4ad9542"
+  },
+  {
+    "path": "SourceArt/AutopsyTable.obj",
+    "bytes": 402423,
+    "sha256": "6b5d97ce3588a9e3fe1a611c985bc3c4e5c5767c7bb186c7abf9be8cef3ea4c3"
+  },
+  {
+    "path": "SourceArt/Battery.obj",
+    "bytes": 781002,
+    "sha256": "dd0f5ff1c543d74a50551168e5d368c416314600234cabaa57594742a5f13675"
+  },
+  {
+    "path": "SourceArt/Bed.obj",
+    "bytes": 3230144,
+    "sha256": "e5df46401dff9172fd42ee0e2a2a5192a3292a160e58862236d9d481d7f6c2f5"
+  },
+  {
+    "path": "SourceArt/BedsideTable.obj",
+    "bytes": 268903,
+    "sha256": "b8985190e304f8ced1ea69ac5e6c10599d8b6d119b3c34cbe4a46a883b5b04bd"
+  },
+  {
+    "path": "SourceArt/Bench.obj",
+    "bytes": 253222,
+    "sha256": "5c15c57c0d0d04fab3515808aef37f3ea50ee94036f34691b1d05a9725a4e00a"
+  },
+  {
+    "path": "SourceArt/BioBin.obj",
+    "bytes": 833739,
+    "sha256": "b1d3918c54205ec5cecd96aae918dfb70d0aee0ec8b3726aa544832f49d3447f"
+  },
+  {
+    "path": "SourceArt/BrokenWindow.obj",
+    "bytes": 15585,
+    "sha256": "04406b052143fab460a0f5a9e1c432c82df1dd212917dc1b93c3d833e51573ed"
+  },
+  {
+    "path": "SourceArt/Cabinet.obj",
+    "bytes": 593590,
+    "sha256": "c8a99d521f93658182ab7107b17b9a3d5f86d4b8ba17561c388dcc3b124187ba"
+  },
+  {
+    "path": "SourceArt/CableBundle.obj",
+    "bytes": 793077,
+    "sha256": "ae0f0af31b5019ebb1669feb54711aff2ad1fd4731662c61c5f91ba950f414c2"
+  },
+  {
+    "path": "SourceArt/Camcorder.obj",
+    "bytes": 1094642,
+    "sha256": "dc402366ec92a27bce8fa7324c5a05eeb8c7f58996a3bfdace8c3e673eb019b8"
+  },
+  {
+    "path": "SourceArt/Camera.obj",
+    "bytes": 85806,
+    "sha256": "5aec2d75bb1043f712e4d4095c0004f579a530054f34d1dca33611fc6212c325"
+  },
+  {
+    "path": "SourceArt/Chair.obj",
+    "bytes": 359148,
+    "sha256": "37b27ec39311ac2a3a7db243aa8ee8c8e85a10548f63626d201e2282ffe9f8c6"
+  },
+  {
+    "path": "SourceArt/ChildBody.obj",
+    "bytes": 3435429,
+    "sha256": "9bd949294abd001aa0e00fe1cafa14bc395c066341117621608dc95e1041694e"
+  },
+  {
+    "path": "SourceArt/Crib.obj",
+    "bytes": 465129,
+    "sha256": "203ab0cd82774d579f9f02b5b7f443e7eb07bfe82f726770608ba076e5c0c881"
+  },
+  {
+    "path": "SourceArt/Defibrillator.obj",
+    "bytes": 2669447,
+    "sha256": "61f93e143f42b450dc68948b30cfe424859ea35a5f81ccb8e5f44620efc2358e"
+  },
+  {
+    "path": "SourceArt/Desk.obj",
+    "bytes": 502031,
+    "sha256": "c9f59898fa612c7954b9b3abb33167b2643c88fb454f6f41931983ade8641a64"
+  },
+  {
+    "path": "SourceArt/DeskLamp.obj",
+    "bytes": 772980,
+    "sha256": "a6c37eba5ddf35db01d18171a255340a59bb33398bf759cacf656c0d1c58ca41"
+  },
+  {
+    "path": "SourceArt/Document.obj",
+    "bytes": 20289,
+    "sha256": "58ec04d6358a1e32d42b4e26d421bc8cb46aa9d81e8a89ef2b710ef409a669df"
+  },
+  {
+    "path": "SourceArt/Door.obj",
+    "bytes": 351682,
+    "sha256": "44f0f979dc9a1cda2d7eee080a1e22f1f2b8df6b63ccb6895e835fa80223d63a"
+  },
+  {
+    "path": "SourceArt/ElectricalPanel.obj",
+    "bytes": 595266,
+    "sha256": "90f3edf1c97689189cf4d82a30808a5b0a7131b263ec7b5bf65a5637b7ded69f"
+  },
+  {
+    "path": "SourceArt/Extinguisher.obj",
+    "bytes": 587134,
+    "sha256": "5ead185fbc3f66a5588c1b501d70e488ecdee90d62447c8c989070d2686aa701"
+  },
+  {
+    "path": "SourceArt/Fan.obj",
+    "bytes": 242270,
+    "sha256": "a987fa8fff813a50d236921f655a630fd5e3a2fb026fa8e11895e0147e4817e6"
+  },
+  {
+    "path": "SourceArt/FirstAidKit.obj",
+    "bytes": 102165,
+    "sha256": "fba1d9a668e727810f2a51372f8bd7d0511b910d6ae3f63390445f2ea9855771"
+  },
+  {
+    "path": "SourceArt/Frame.obj",
+    "bytes": 475206,
+    "sha256": "4660fe11727966e5d68d6b85515a68848a5a7440bffb7c686a302bca911295ce"
+  },
+  {
+    "path": "SourceArt/FuseBox.obj",
+    "bytes": 603998,
+    "sha256": "de82439bd313cbf00f5dfdde2cce7fb9a710fa97b09f1bd944292f64271ad1e7"
+  },
+  {
+    "path": "SourceArt/Generator.obj",
+    "bytes": 1084639,
+    "sha256": "82b5e17876680370ba7dcee153dc121fa29afae195192c31f650df104eeb72d5"
+  },
+  {
+    "path": "SourceArt/IVStand.obj",
+    "bytes": 1284603,
+    "sha256": "3e491cb5778cc61bccb8bb724d060a3c8a7e13fb928a7e43fcb8f4ce4a5c1975"
+  },
+  {
+    "path": "SourceArt/Incubator.obj",
+    "bytes": 1291552,
+    "sha256": "2ef94e895a9dcd9f5a69760afa56cdc1127acc8cceae2339f9c18fbfe4fce7a6"
+  },
+  {
+    "path": "SourceArt/JanitorCart.obj",
+    "bytes": 1375186,
+    "sha256": "0cce9b33e72fe3ddc4614f1deb5c6f600796f5f66e44b0aadb01f25550ecad79"
+  },
+  {
+    "path": "SourceArt/Key.obj",
+    "bytes": 603438,
+    "sha256": "f8a27ce9de44249dfe60ef181468895feb23dc1c8bac9053ff095dc8974d7ad6"
+  },
+  {
+    "path": "SourceArt/Lamp.obj",
+    "bytes": 234180,
+    "sha256": "f5d3936e105ad1d7fce2b2d3ca67183b5249767ceccf6150ed064917785c5628"
+  },
+  {
+    "path": "SourceArt/Locker.obj",
+    "bytes": 442384,
+    "sha256": "ce1394336fcdf468559bd896f492dfce5143e8d06462cf54d3ba736bfb9386b9"
+  },
+  {
+    "path": "SourceArt/MedicalTray.obj",
+    "bytes": 304151,
+    "sha256": "8da7c29a1867cb628126a0127ce82d2251746c6bf5365238110b0e4d852e08d3"
+  },
+  {
+    "path": "SourceArt/MedicineShelf.obj",
+    "bytes": 939660,
+    "sha256": "0d252e6f35cff11aa612ac9bbfee273cf9201ac32c4fe345200c2ff7a3a369e7"
+  },
+  {
+    "path": "SourceArt/Microscope.obj",
+    "bytes": 529008,
+    "sha256": "95d905e5300827abe3ab8e386e337f94a0fc3e71a86e8949ca5b8292216b1d21"
+  },
+  {
+    "path": "SourceArt/Monitor.obj",
+    "bytes": 803556,
+    "sha256": "0782c9288ef02964284f93720dd368c3bccc0e8f54738c73793f26be601d9959"
+  },
+  {
+    "path": "SourceArt/MorgueDrawers.obj",
+    "bytes": 1437786,
+    "sha256": "26e6cf520a7d805596105be740159dd9e59fca5cc7d98bfd04a72374e610f580"
+  },
+  {
+    "path": "SourceArt/MotherBody.obj",
+    "bytes": 3435620,
+    "sha256": "39d536fc73152732430216d9e92e4454b90c8de7c116e3888894cc75d7e7809b"
+  },
+  {
+    "path": "SourceArt/OxygenTank.obj",
+    "bytes": 826362,
+    "sha256": "8c39fb0cb63f965cc83862e9c45815e77f7a4b54d9b5728eba2450706926219b"
+  },
+  {
+    "path": "SourceArt/Palette.mtl",
+    "bytes": 1354,
+    "sha256": "ab6d1782365d7781cf23f75a093545535ecc0ba832eca3661bf063b3894e0029"
+  },
+  {
+    "path": "SourceArt/Phone.obj",
+    "bytes": 502815,
+    "sha256": "12447ab4c457b7e15280922168ea6838240e5ebaaf4ca610f488791f57590d53"
+  },
+  {
+    "path": "SourceArt/Pipe.obj",
+    "bytes": 711275,
+    "sha256": "135645f7e6b1426e456aa4eeb0f035601c2d71f06e00b238d2a09b1fa3fb4ac0"
+  },
+  {
+    "path": "SourceArt/PrivacyScreen.obj",
+    "bytes": 2886968,
+    "sha256": "e1bb6f8733f4942ed5a91b347ea943eac8f0384d4291e3a6419ba7b01a67fd64"
+  },
+  {
+    "path": "SourceArt/Radiator.obj",
+    "bytes": 629629,
+    "sha256": "cec365cd0693ed1dcce87604b480fce91d7827abe88be7b4efb78f8841cb5566"
+  },
+  {
+    "path": "SourceArt/Recorder.obj",
+    "bytes": 744044,
+    "sha256": "1eb71c7298d0d625b870201e584ad232077f099ffed29ea9d1824b2926b0776d"
+  },
+  {
+    "path": "SourceArt/Rubble.obj",
+    "bytes": 2033151,
+    "sha256": "f19ddff1d716229e7bc8799827dc8d20034c9410e1801cf36f5da533342ef903"
+  },
+  {
+    "path": "SourceArt/Sebastian.obj",
+    "bytes": 11314592,
+    "sha256": "926b8f0ca0be24611e22fc944cb7cfdbd32cd79e6978ec7fbe94e2796d9c6501"
+  },
+  {
+    "path": "SourceArt/SebastianTextures/Cloth.png",
+    "bytes": 4742896,
+    "sha256": "19d68d2ac4eda26ebc1c88aa760037fad2f1ae3302c7f1f4209b41d94052b56a"
+  },
+  {
+    "path": "SourceArt/SebastianTextures/Face.png",
+    "bytes": 2672125,
+    "sha256": "826e9998d1eb38f4dbb7521cae31bfb54c94ba07ca68da85e0f63240792076d9"
+  },
+  {
+    "path": "SourceArt/SebastianTextures/PROMPTS.txt",
+    "bytes": 2424,
+    "sha256": "67317fc874cd2f9e091b3c47a36605464a0d263811d129ad483e8ca966324ea9"
+  },
+  {
+    "path": "SourceArt/Sink.obj",
+    "bytes": 470621,
+    "sha256": "05e4b04593d74720a38c6f54402dd9eb45c960e1c685fe275fbdf0015319cb16"
+  },
+  {
+    "path": "SourceArt/Stretcher.obj",
+    "bytes": 891435,
+    "sha256": "ba30c178a664823c849c7d64f1ce1f7c8fa36b48887ea0e10f97e16d1e2b24da"
+  },
+  {
+    "path": "SourceArt/SurgicalLamp.obj",
+    "bytes": 1378166,
+    "sha256": "ab3dd22726ab5fe334d7b583398ea4719165dcaa1e1eb41d171373d6098afda5"
+  },
+  {
+    "path": "SourceArt/Teddy.obj",
+    "bytes": 2039797,
+    "sha256": "a49bff96204e1d9d4d2e5fdca3987550f45ad70f87d38fa82e8398e1de138bad"
+  },
+  {
+    "path": "SourceArt/TextureSources/AdditionalSurfaces.jpg",
+    "bytes": 897918,
+    "sha256": "bcc800c2f30a4979ad70336b6db499cf63d04fabbd22441b12971482a0d6a34c"
+  },
+  {
+    "path": "SourceArt/TextureSources/Enamel.jpg",
+    "bytes": 995635,
+    "sha256": "986e8264221fa33064eb9d90bcde3ec1a81b8b84518e733ea2df5509218370d8"
+  },
+  {
+    "path": "SourceArt/TextureSources/Linen.jpg",
+    "bytes": 1092948,
+    "sha256": "9053be3d33f6bde7a7ade3d3acf7438f3f625fe2e85b330c3cd61c1637ecbccb"
+  },
+  {
+    "path": "SourceArt/TextureSources/PROMPTS.txt",
+    "bytes": 2171,
+    "sha256": "2c17ec279ce39704ec47136bc1157005d435cac4e8e24d219924f7da7c076ee7"
+  },
+  {
+    "path": "SourceArt/TextureSources/Plaster.jpg",
+    "bytes": 990591,
+    "sha256": "4ab0783c192b7c27f756d0af2cdedb75451c70028706f029ce2ac2d0c7777fff"
+  },
+  {
+    "path": "SourceArt/TextureSources/Steel.jpg",
+    "bytes": 1010615,
+    "sha256": "0c0720d5a1a7ad03360d14f41d01e4959a56c7648a08c18740ffd542f63cd829"
+  },
+  {
+    "path": "SourceArt/TextureSources/Tiles.jpg",
+    "bytes": 844373,
+    "sha256": "a0f87612e8c45e86c9ead76eb275ff2e0cad41f8c0095ceb1136e8d863ced92d"
+  },
+  {
+    "path": "SourceArt/TextureSources/Wood.jpg",
+    "bytes": 888973,
+    "sha256": "935d7d0e8ea0e42ba820eecd2739cad1a5a0b291cdb5e27628a4342aa7d26758"
+  },
+  {
+    "path": "SourceArt/Trolley.obj",
+    "bytes": 997406,
+    "sha256": "ddc38a8929dd95ad011e5027af869510d708795006f940d77e96dc6e144506f8"
+  },
+  {
+    "path": "SourceArt/Valve.obj",
+    "bytes": 242638,
+    "sha256": "109334de3ed7c9fef380d22b91797ad5625cc4cd301bdd6f476c6c36d8f8c7bd"
+  },
+  {
+    "path": "SourceArt/Vent.obj",
+    "bytes": 416995,
+    "sha256": "f557b41ad6dee2254f9d1a58ff13e4af5a5396995daa33935fc5aef080d16e17"
+  },
+  {
+    "path": "SourceArt/VinylSofa.obj",
+    "bytes": 289074,
+    "sha256": "79cca479d511d8bc93b05704b80feaac4ff06418e204d68ab2d95786aa775db3"
+  },
+  {
+    "path": "SourceArt/WallClock.obj",
+    "bytes": 1681222,
+    "sha256": "1f1fc87d017b8e570e2d4f9e005053fe1476d69648b67738fb788c728b3232d8"
+  },
+  {
+    "path": "SourceArt/WashBasin.obj",
+    "bytes": 1560845,
+    "sha256": "48c9cbf8fbc0d7c01abd8fe0b35ebbf65b48601efaf5fb2cd0d970988d9141fd"
+  },
+  {
+    "path": "SourceArt/Wheelchair.obj",
+    "bytes": 2132838,
+    "sha256": "0321eddb7711d8661030bc9d25e7a3d518032e23b9816460b8b92f68b71be6fa"
+  },
+  {
+    "path": "SourceArt/XRay.obj",
+    "bytes": 856524,
+    "sha256": "cd6d5f0c7d53e5d8d3d90e97acc9821041175d7007428078c8e69b3934ab0213"
+  },
+  {
+    "path": "SourceArt/__pycache__/detail_mesh.cpython-311.pyc",
+    "bytes": 33086,
+    "sha256": "28a00fefdcbb354d4da4f62aa97cbd37acc98f2bf9039b57413159efa6ab4724"
+  },
+  {
+    "path": "SourceArt/__pycache__/sebastian_model.cpython-311.pyc",
+    "bytes": 24811,
+    "sha256": "04d39b1e29eddf8a79c767d6f87d63de4fe6645997000675257f1270fa7a96b8"
+  },
+  {
+    "path": "SourceArt/__pycache__/sebastian_pose.cpython-311.pyc",
+    "bytes": 13215,
+    "sha256": "8b98be8f613d8e01dce3e27c5af7cb4d748b95c7c08d117e56a3ab3b53f4423a"
+  },
+  {
+    "path": "SourceArt/build_materials.py",
+    "bytes": 2785,
+    "sha256": "c9822e406e78f2225dad891c0d1b8f6f942f803e27c89485d22926a0ef97d6fa"
+  },
+  {
+    "path": "SourceArt/build_prop_materials.py",
+    "bytes": 1869,
+    "sha256": "f309a28ce0950cff9e2ae6f16b6029daddbffb9cefe8928808ec3ce8f3236474"
+  },
+  {
+    "path": "SourceArt/build_sebastian_materials.py",
+    "bytes": 2042,
+    "sha256": "fd7ed76139d1b7c0a25f3a53ce0da334717e82960d5330276474d2194e0d33e4"
+  },
+  {
+    "path": "SourceArt/chase_music.py",
+    "bytes": 5256,
+    "sha256": "9950c568507f3b4a792c4d2c9c1206e9137d7ef765a46a1851770b86a624b1f1"
+  },
+  {
+    "path": "SourceArt/create_assets.py",
+    "bytes": 11219,
+    "sha256": "fd24db1900798796811a7d329cc84c5aae460a40f202a6ab27dc3619ed33e2bf"
+  },
+  {
+    "path": "SourceArt/detail_mesh.py",
+    "bytes": 14292,
+    "sha256": "7f30e93be2b647a18e0245043c9996cffcd601cc3a7466ffa0578814eb591f14"
+  },
+  {
+    "path": "SourceArt/extend_assets.py",
+    "bytes": 5063,
+    "sha256": "fa3680a646a3c5ed46d0a3d2c378dbb13c3767b8e5d666810d55fbcc1a4d9b17"
+  },
+  {
+    "path": "SourceArt/horror_audio.py",
+    "bytes": 2233,
+    "sha256": "1accd2051f86b1ece27e502aef2ce6d96af966ca75d707642a9a617c92f426bd"
+  },
+  {
+    "path": "SourceArt/illustration_prompt.txt",
+    "bytes": 1520,
+    "sha256": "553f6e27a3c6b542c2e06eae5310171c8b0c6ddd069ae3a8e07bc6fef62b7a8c"
+  },
+  {
+    "path": "SourceArt/polish_audio.py",
+    "bytes": 972,
+    "sha256": "ec72ae66da590f0d3318ee625ab6344f99d1414f2d92003ccd162b1c446b11da"
+  },
+  {
+    "path": "SourceArt/preview_detailed.py",
+    "bytes": 3532,
+    "sha256": "4159595fdad5bcb4035da035a8f995ccd302918330bc52dffe0be1c787bade54"
+  },
+  {
+    "path": "SourceArt/preview_models.py",
+    "bytes": 2689,
+    "sha256": "e6f97f4954447bf16407b7bb391b3f8dbfe9df9d7acad26fabb9716c69ca197d"
+  },
+  {
+    "path": "SourceArt/preview_motion.py",
+    "bytes": 5363,
+    "sha256": "3273c00fc7b2e7b02a818c4a25c27136592659d83dced8718220d488d66305f8"
+  },
+  {
+    "path": "SourceArt/preview_revision3.py",
+    "bytes": 3827,
+    "sha256": "97ecab8dfea408af67aadc9dc31283a393ccf554cad076e885cd387c65b405d1"
+  },
+  {
+    "path": "SourceArt/preview_revision8.py",
+    "bytes": 3844,
+    "sha256": "afb9cd133e1141dbbe88cc111d87095239486656b0f821ea04ea07a92386cfb5"
+  },
+  {
+    "path": "SourceArt/preview_sebastian.py",
+    "bytes": 4466,
+    "sha256": "ccbf4e6024c2d1c39a7fccfeff75c0862a4ebd25ac8a9cb348dae7de004581a3"
+  },
+  {
+    "path": "SourceArt/re_sh_audio.py",
+    "bytes": 7803,
+    "sha256": "0d63542234a9c84f6662c9f41585a49bb1d74c705d599bec2a1fac2db725321f"
+  },
+  {
+    "path": "SourceArt/realistic_props.py",
+    "bytes": 9075,
+    "sha256": "409c9c6496cdaf8237e8204aec88434e09f5c4e6d2b420764ef598c73decc88b"
+  },
+  {
+    "path": "SourceArt/rebuild_sebastian.py",
+    "bytes": 659,
+    "sha256": "602ecc95e204e6eb60d97cc01166f896e0bd54f0c5af11035cc72b22d5e15342"
+  },
+  {
+    "path": "SourceArt/sebastian_audio.py",
+    "bytes": 2933,
+    "sha256": "15cd734e8f3ec82ca4b8daf301ef79a4f703500b80aeb8d1ebf6fb00227c518a"
+  },
+  {
+    "path": "SourceArt/sebastian_model.py",
+    "bytes": 9278,
+    "sha256": "4ff235ed3d281047af088b200e4aa9a90569cf0a0764ca2a62a4e72124d59571"
+  },
+  {
+    "path": "SourceArt/sebastian_pose.py",
+    "bytes": 4768,
+    "sha256": "c57d7f671e817c480c96fc30caccbe4b0bee7a4721a6e391203376633a7666b6"
+  },
+  {
+    "path": "Tests/audit_layout.py",
+    "bytes": 7459,
+    "sha256": "93ffda720604f1510b780816fcbfade27baecd79f3ba2b7bd442cb2025424a61"
+  },
+  {
+    "path": "Tests/verify_horror_director.py",
+    "bytes": 2990,
+    "sha256": "28723110462d598af619543c2b886b925e1cdfcb2bb2422f0964971b3e50678d"
+  },
+  {
+    "path": "Tests/verify_materials.py",
+    "bytes": 1998,
+    "sha256": "e14ec046c84a86e0d93e7740545ec122697bccf816c747d538b07c3cde13ec82"
+  },
+  {
+    "path": "Tests/verify_project.py",
+    "bytes": 6216,
+    "sha256": "ebbe7ea8c2cfd13163ec66ea7762653b0bd10aadab942269a6c53ccb6cef9ee5"
+  },
+  {
+    "path": "Tests/verify_sebastian.py",
+    "bytes": 3302,
+    "sha256": "2b6bb26e344fe5366c7dc196cff600ff662b9d1304f91de8e19b115147c2354f"
+  },
+  {
+    "path": "Tests/verify_texture_rebuild.py",
+    "bytes": 1064,
+    "sha256": "73d8df15a91ba71ee3ad488153fe0d5168d6ef9d52ed42afe9897a15087e2449"
+  }
+]

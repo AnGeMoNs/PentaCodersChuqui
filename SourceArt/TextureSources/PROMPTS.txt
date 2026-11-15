@@ -1,0 +1,20 @@
+Mode: built-in image_gen, original generated assets. No external game files used.
+Requested resolution: 2048x2048. Actual returned resolution: 1254x1254.
+Sources saved as JPEG quality 96; game atlas downsampled, not upscaled.
+
+Shared prompt:
+Use case: photorealistic-natural. Original game texture asset. Generate one square 2048x2048 high resolution surface scan: [SUBJECT]. Orthographic close-up flat material fills entire image edge to edge, even diffuse illumination, no perspective, no objects, no text, no border, no baked shadows. Fine realistic surface detail suitable for a grounded abandoned hospital horror game, seamless edges if possible. This is a usable albedo texture, not a scene or a mockup.
+
+Subjects:
+Enamel: Pale hospital enamel over steel, irregular chipped paint, fine scratches, small orange rust blooms
+Steel: Dark oxidized brushed steel, directional abrasion, pitting, subtle rust, no objects
+Linen: Dirty ivory hospital linen cotton, fine visible woven fibers, irregular old brown water stains, no large folds
+Wood: Aged walnut wood, long realistic grain, scratches and rubbed varnish
+Plaster: Green gray peeling hospital plaster wall, damp stains, cracks and flaking paint
+Tiles: Old gray beige hospital ceramic floor tiles, regular square grout grid, scuffs and fine cracks
+
+Detail normals and material masks are approximate algorithmic derivatives, not AI-generated measured PBR maps.
+
+
+Revision 3 — built-in image_gen, one new 2x2 source atlas. Actual size 1254x1254.
+Prompt: Original game material texture atlas for abandoned hospital survival horror. Perfectly aligned 2x2 grid, four equal square panels, no margins, text or borders. Top left worn black medical vinyl upholstery, fine grain, tiny cracks and dull rubbed patches. Top right old honey brown corrugated cardboard, paper fibers, scuffs, water stains, no printing. Bottom left aged white glazed porcelain, subtle crazing microcracks, light mineral staining and gray grime. Bottom right dark gray industrial rubber, fine pebbled grain, abrasion and dust. Flat orthographic evenly lit albedo scans, no perspective, no objects, no baked highlights, no logos or borrowed assets.

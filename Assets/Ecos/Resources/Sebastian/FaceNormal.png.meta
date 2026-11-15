@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: fe7b35ea7737ce9a465fec1b5d890047
+TextureImporter:
+  serializedVersion: 13
+  mipmaps:
+    enableMipMap: 1
+    sRGBTexture: 0
+  isReadable: 0
+  textureType: 0
+  textureShape: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 8
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  textureCompression: 0
+  compressionQuality: 100
+  alphaIsTransparency: 0
+  userData: Native 1254px character texture; RGB linear micro-normal where applicable

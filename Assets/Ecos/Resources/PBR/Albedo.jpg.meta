@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 084508e09c985e16a6654429093ba61e
+TextureImporter:
+  serializedVersion: 13
+  mipmaps:
+    enableMipMap: 1
+    sRGBTexture: 1
+  isReadable: 0
+  textureType: 0
+  textureShape: 1
+  maxTextureSize: 4096
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 8
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  textureCompression: 1
+  compressionQuality: 75
+  alphaIsTransparency: 0
+  userData: Original generated material atlas; masks use linear sampling
