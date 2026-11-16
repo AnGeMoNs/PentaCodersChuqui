@@ -13,7 +13,7 @@ public class UIManager : GenericSingleton<UIManager>
     [SerializeField] private TMP_Text messageText;
     [SerializeField] private Image staminaFillImage;
 
-    [Header("HUD de Cámara")]
+    [Header("HUD de Camara")]
     [SerializeField] private GameObject cameraHudPanel;
     [SerializeField] private GameObject nightVisionOverlay;
     [SerializeField] private RawImage noiseRawImage;
@@ -53,6 +53,7 @@ public class UIManager : GenericSingleton<UIManager>
         base.Initialization();
         CreateNoiseTexture();
 
+        // Apagamos todos los paneles al partir el nivel
         HideInteractionText();
         if (messageText != null) messageText.gameObject.SetActive(false);
         if (cameraHudPanel != null) cameraHudPanel.SetActive(false);
@@ -65,6 +66,7 @@ public class UIManager : GenericSingleton<UIManager>
 
     private void Update()
     {
+        // Oculta los mensajes temporales cuando termina su tiempo
         if (_messageTimer > 0f)
         {
             _messageTimer -= Time.deltaTime;
@@ -74,6 +76,7 @@ public class UIManager : GenericSingleton<UIManager>
             }
         }
 
+        // Parpadeo del punto rojo REC y ruido de la vision nocturna
         if (cameraHudPanel != null && cameraHudPanel.activeSelf)
         {
             _recBlinkTimer += Time.unscaledDeltaTime;
@@ -89,6 +92,7 @@ public class UIManager : GenericSingleton<UIManager>
             }
         }
 
+        // Permite cerrar la nota presionando E de nuevo
         if (IsDocumentOpen && Time.frameCount != _documentOpenedFrame)
         {
             if (Keyboard.current != null && Keyboard.current.eKey.wasPressedThisFrame)
@@ -102,6 +106,7 @@ public class UIManager : GenericSingleton<UIManager>
 
     #region CLASS_METHODS
 
+    // Genera una textura pequena con lineas y ruido verde para el visor
     private void CreateNoiseTexture()
     {
         const int size = 128;
@@ -168,7 +173,7 @@ public class UIManager : GenericSingleton<UIManager>
         if (nightVisionOverlay != null) nightVisionOverlay.SetActive(active);
         if (nightVisionStateText != null)
         {
-            nightVisionStateText.text = active ? "VISIÓN NOCTURNA: ON [F]" : "VISIÓN NOCTURNA: OFF [F]";
+            nightVisionStateText.text = active ? "VISION NOCTURNA: ON [F]" : "VISION NOCTURNA: OFF [F]";
             nightVisionStateText.color = active ? new Color(0.45f, 1f, 0.55f) : Color.white;
         }
     }
@@ -197,7 +202,7 @@ public class UIManager : GenericSingleton<UIManager>
 
         if (batteryPercentText != null)
         {
-            batteryPercentText.text = "BATERÍA: " + Mathf.RoundToInt(percent) + "%";
+            batteryPercentText.text = "BATERIA: " + Mathf.RoundToInt(percent) + "%";
             batteryPercentText.color = isLow ? new Color(1f, 0.35f, 0.35f) : Color.white;
         }
     }
@@ -238,6 +243,7 @@ public class UIManager : GenericSingleton<UIManager>
         if (keypadDisplayText != null) keypadDisplayText.text = displayValue;
     }
 
+    // Metodos conectados a los botones del teclado numerico en el Canvas
     public void OnKeypadDigitButton(string digit)
     {
         if (_activeKeypad != null) _activeKeypad.PressNumber(digit);

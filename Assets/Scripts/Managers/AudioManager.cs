@@ -31,6 +31,7 @@ public class AudioManager : PersistentSingleton<AudioManager>
         base.Initialization();
         EnsureSources();
 
+        // Carga el volumen guardado en PlayerPrefs
         _currentVolume = PlayerPrefs.GetFloat(VolumePrefKey, 0.85f);
         SetMasterVolume(_currentVolume);
 
@@ -38,6 +39,7 @@ public class AudioManager : PersistentSingleton<AudioManager>
         if (defaultAmbientClip != null && !ambientSource.isPlaying) PlayAmbient(defaultAmbientClip);
     }
 
+    // Crea los AudioSource si no fueron asignados en el Inspector
     private void EnsureSources()
     {
         if (musicSource == null)
@@ -92,6 +94,7 @@ public class AudioManager : PersistentSingleton<AudioManager>
         sfxSource.PlayOneShot(clip, volume);
     }
 
+    // Cambia el volumen general y lo guarda en PlayerPrefs
     public void SetMasterVolume(float normalizedVolume)
     {
         _currentVolume = Mathf.Clamp01(normalizedVolume);

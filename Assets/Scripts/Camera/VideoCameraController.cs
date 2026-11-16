@@ -39,16 +39,18 @@ public class VideoCameraController : MonoBehaviour
 
     private void Update()
     {
+        // Clic derecho levanta o baja la camara
         if (Mouse.current != null && Mouse.current.rightButton.wasPressedThisFrame)
         {
             if (_isRaised) LowerCamera();
             else RaiseCamera();
         }
 
+        // F prende o apaga la vision nocturna solo si la camara esta arriba
         if (Keyboard.current != null && Keyboard.current.fKey.wasPressedThisFrame)
         {
             if (_isRaised) nightVision.Toggle();
-            else UIManager.Instance.ShowMessage("Levanta la cámara (Clic derecho) para activar la visión nocturna.", 2.5f);
+            else UIManager.Instance.ShowMessage("Levanta la camara (Clic derecho) para activar la vision nocturna.", 2.5f);
         }
 
         UpdateCameraTransition();
@@ -75,10 +77,13 @@ public class VideoCameraController : MonoBehaviour
     {
         _isRaised = false;
         if (audioSource != null && lowerClip != null) audioSource.PlayOneShot(lowerClip);
+
+        // Al bajar la camara se apaga la vision nocturna para no gastar pila
         nightVision.TurnOff();
         UIManager.Instance.ShowCameraHUD(false);
     }
 
+    // Mueve el modelo 3D suavemente y ajusta el FOV al apuntar con la camara
     private void UpdateCameraTransition()
     {
         if (cameraModel != null)

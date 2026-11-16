@@ -25,6 +25,8 @@ public class MainMenuController : MonoBehaviour
 
         if (controlsPanel != null) controlsPanel.SetActive(false);
         if (menuMusicClip != null) AudioManager.Instance.PlayMusic(menuMusicClip, 0.5f);
+
+        // Sincroniza el slider con el volumen guardado
         if (volumeSlider != null) volumeSlider.SetValueWithoutNotify(AudioManager.Instance.CurrentVolume);
     }
 

@@ -32,6 +32,7 @@ public class KeypadPuzzle : Interactable
         Keyboard kb = Keyboard.current;
         if (kb == null) return;
 
+        // Tambien deja escribir los digitos con el teclado fisico
         for (int i = 0; i <= 9; i++)
         {
             if (kb[Key.Digit0 + i].wasPressedThisFrame || kb[Key.Numpad0 + i].wasPressedThisFrame)
@@ -50,7 +51,7 @@ public class KeypadPuzzle : Interactable
 
     public override string GetInteractionText()
     {
-        return _isSolved ? "Teclado desbloqueado" : "Usar teclado numérico";
+        return _isSolved ? "Teclado desbloqueado" : "Usar teclado numerico";
     }
 
     public override void Interact(PlayerInteraction player)
@@ -82,6 +83,7 @@ public class KeypadPuzzle : Interactable
         GameManager.Instance.SetGameplayInputEnabled(true);
     }
 
+    // Agrega un digito al visor del teclado (maximo 4)
     public void PressNumber(string digit)
     {
         if (_isChecking || _currentInput.Length >= 4) return;
@@ -116,6 +118,7 @@ public class KeypadPuzzle : Interactable
         }
     }
 
+    // Si acierta el codigo 1985, cambia el LED a verde y abre la puerta
     private IEnumerator HandleCorrectCode()
     {
         _isChecking = true;
@@ -139,6 +142,7 @@ public class KeypadPuzzle : Interactable
         UIManager.Instance.ShowMessage("Victoria, espera a que continuemos la historia...", 4.5f);
     }
 
+    // Si falla, suena error y borra lo escrito
     private IEnumerator HandleWrongCode()
     {
         _isChecking = true;

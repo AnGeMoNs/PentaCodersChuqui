@@ -38,6 +38,7 @@ public class FlickeringLight : MonoBehaviour
             return;
         }
 
+        // Usa ruido de Perlin para que el parpadeo sea irregular
         float speed = _intenseTimer > 0f ? flickerSpeed * 3.5f : flickerSpeed;
         if (_intenseTimer > 0f) _intenseTimer -= Time.deltaTime;
 
@@ -65,6 +66,7 @@ public class FlickeringLight : MonoBehaviour
 
     #region CLASS_METHODS
 
+    // Pide una chispa al SimpleObjectPool en vez de instanciar una nueva
     public void SpawnSparkFromPool()
     {
         if (sparkPool == null) return;

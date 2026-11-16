@@ -12,6 +12,7 @@ public class VictoryTrigger : MonoBehaviour
 
     #region UNITY_METHODS
 
+    // Se activa una sola vez cuando el jugador cruza la puerta de Administracion
     private void OnTriggerEnter(Collider other)
     {
         if (_triggered || !other.CompareTag("Player")) return;

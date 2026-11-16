@@ -29,6 +29,7 @@ public class CameraBattery : MonoBehaviour
 
     private void Update()
     {
+        // Solo consume energia cuando la vision nocturna esta prendida
         if (!_isDraining || _currentCharge <= 0f) return;
 
         _currentCharge -= drainPerSecond * Time.deltaTime;
@@ -46,6 +47,7 @@ public class CameraBattery : MonoBehaviour
         _isDraining = draining;
     }
 
+    // Recarga la bateria al recoger una pila, devuelve false si ya estaba al 100%
     public bool Recharge(float amount)
     {
         if (_currentCharge >= maxCharge) return false;
@@ -55,6 +57,7 @@ public class CameraBattery : MonoBehaviour
         return true;
     }
 
+    // Actualiza el HUD solo cuando cambia el porcentaje entero
     private void RefreshUI(bool force)
     {
         int rounded = Mathf.RoundToInt(ChargePercent);

@@ -14,6 +14,7 @@ public class PauseMenuController : MonoBehaviour
 
     private void OnEnable()
     {
+        // Actualiza el slider cada vez que se abre el menu de pausa
         if (volumeSlider != null)
         {
             volumeSlider.SetValueWithoutNotify(AudioManager.Instance.CurrentVolume);

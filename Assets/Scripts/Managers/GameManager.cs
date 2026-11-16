@@ -40,7 +40,7 @@ public class GameManager : GenericSingleton<GameManager>
 
     private void Start()
     {
-        UIManager.Instance.ShowMessage("Hospital Roy H. Glover — Clic derecho: Cámara | F: Visión nocturna | E: Interactuar", 5f);
+        UIManager.Instance.ShowMessage("Hospital Roy H. Glover - Clic derecho: Camara | F: Vision nocturna | E: Interactuar", 5f);
     }
 
     private void Update()
@@ -57,6 +57,7 @@ public class GameManager : GenericSingleton<GameManager>
 
     #region CLASS_METHODS
 
+    // Esc cierra el panel que este abierto o pausa el juego
     private void HandleEscapeKey()
     {
         if (UIManager.Instance.IsDocumentOpen)
@@ -91,6 +92,7 @@ public class GameManager : GenericSingleton<GameManager>
         SetGameplayInputEnabled(true);
     }
 
+    // Activa o desactiva los controles del jugador al abrir menus o notas
     public void SetGameplayInputEnabled(bool enabled)
     {
         if (playerMovement != null) playerMovement.enabled = enabled;
@@ -112,6 +114,7 @@ public class GameManager : GenericSingleton<GameManager>
         StartCoroutine(EndingSequenceCoroutine());
     }
 
+    // Secuencia final: sonido infantil, parpadeo de luz, silueta y pantalla de fin
     private IEnumerator EndingSequenceCoroutine()
     {
         UIManager.Instance.ShowMessage("Victoria, espera a que continuemos la historia...", 4f);

@@ -9,7 +9,7 @@ public class DoorController : Interactable
     [SerializeField] private float openAngle = 95f;
     [SerializeField] private float openSpeed = 3f;
     [SerializeField] private bool isLocked = false;
-    [SerializeField] private string lockedMessage = "Puerta bloqueada. Ingresa el código en el teclado numérico.";
+    [SerializeField] private string lockedMessage = "Puerta bloqueada. Ingresa el codigo en el teclado numerico.";
 
     [Header("Sonidos")]
     [SerializeField] private AudioClip openClip;
@@ -34,6 +34,7 @@ public class DoorController : Interactable
     {
         if (doorAnimator != null || doorHinge == null) return;
 
+        // Rota la bisagra de a poco hacia la rotacion abierta o cerrada
         Quaternion target = _isOpen ? _openRotation : _closedRotation;
         if (Quaternion.Angle(doorHinge.localRotation, target) > 0.1f)
         {
@@ -47,7 +48,7 @@ public class DoorController : Interactable
 
     public override string GetInteractionText()
     {
-        if (isLocked) return "Puerta cerrada (Teclado numérico)";
+        if (isLocked) return "Puerta cerrada (Teclado numerico)";
         return _isOpen ? "Cerrar puerta" : "Abrir puerta";
     }
 
@@ -63,6 +64,7 @@ public class DoorController : Interactable
         ToggleDoor();
     }
 
+    // La llama KeypadPuzzle cuando el jugador ingresa 1985
     public void UnlockAndOpen()
     {
         isLocked = false;

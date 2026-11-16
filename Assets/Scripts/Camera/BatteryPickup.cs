@@ -11,6 +11,7 @@ public class BatteryPickup : Interactable
 
     #region CLASS_METHODS
 
+    // Busca el componente CameraBattery en el jugador y lo recarga al presionar E
     public override void Interact(PlayerInteraction player)
     {
         CameraBattery battery = player.GetComponent<CameraBattery>();
@@ -18,12 +19,12 @@ public class BatteryPickup : Interactable
 
         if (!battery.Recharge(chargeAmount))
         {
-            UIManager.Instance.ShowMessage("La batería ya está al máximo.", 2f);
+            UIManager.Instance.ShowMessage("La bateria ya esta al maximo.", 2f);
             return;
         }
 
         AudioManager.Instance.PlaySFX(pickupClip);
-        UIManager.Instance.ShowMessage("Batería recargada +" + chargeAmount + "%", 2.5f);
+        UIManager.Instance.ShowMessage("Bateria recargada +" + chargeAmount + "%", 2.5f);
         gameObject.SetActive(false);
     }
 

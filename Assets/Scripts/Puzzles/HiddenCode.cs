@@ -13,6 +13,7 @@ public class HiddenCode : MonoBehaviour
 
     private void Awake()
     {
+        // Guardamos los renderers al inicio y ocultamos la pista a simple vista
         _cachedRenderers = GetComponentsInChildren<Renderer>(true);
         SetRevealed(false);
     }
@@ -21,6 +22,7 @@ public class HiddenCode : MonoBehaviour
 
     #region CLASS_METHODS
 
+    // Se llama desde NightVisionController al prender o apagar la vision nocturna
     public void SetRevealed(bool revealed)
     {
         if (visualElements != null && visualElements.Length > 0)

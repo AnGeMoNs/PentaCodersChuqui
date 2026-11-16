@@ -19,6 +19,7 @@ public class PlayerInteraction : MonoBehaviour
 
     private void OnEnable()
     {
+        // Evita que la misma tecla E que cerro un panel vuelva a abrirlo en ese frame
         _enabledFrame = Time.frameCount;
         _lastShownTarget = null;
     }
@@ -40,6 +41,7 @@ public class PlayerInteraction : MonoBehaviour
 
     #region CLASS_METHODS
 
+    // Tira un rayo desde el centro de la camara para detectar objetos interactuables
     private void CheckRaycast()
     {
         _currentTarget = null;
@@ -50,7 +52,7 @@ public class PlayerInteraction : MonoBehaviour
             _currentTarget = hit.collider.GetComponentInParent<Interactable>();
         }
 
-        // Solo actualizamos el texto del Canvas si cambió el objeto apuntado
+        // Actualiza el texto en pantalla solo si cambio el objeto apuntado
         if (_currentTarget != _lastShownTarget)
         {
             _lastShownTarget = _currentTarget;

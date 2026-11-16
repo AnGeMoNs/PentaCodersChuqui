@@ -34,10 +34,11 @@ public class NightVisionController : MonoBehaviour
 
     private void Update()
     {
+        // Si se acaba la pila mientras esta activa, se apaga sola
         if (_isActive && !battery.HasCharge)
         {
             TurnOff();
-            UIManager.Instance.ShowMessage("Batería agotada. Busca pilas en el hospital.", 3f);
+            UIManager.Instance.ShowMessage("Bateria agotada. Busca pilas en el hospital.", 3f);
         }
     }
 
@@ -56,7 +57,7 @@ public class NightVisionController : MonoBehaviour
         if (!battery.HasCharge)
         {
             if (audioSource != null && noBatteryClip != null) audioSource.PlayOneShot(noBatteryClip);
-            UIManager.Instance.ShowMessage("Sin batería en la cámara.", 2.5f);
+            UIManager.Instance.ShowMessage("Sin bateria en la camara.", 2.5f);
             return;
         }
 
@@ -72,6 +73,7 @@ public class NightVisionController : MonoBehaviour
         ApplyNightVision(false);
     }
 
+    // Prende o apaga el filtro verde URP, la luz infrarroja, el gasto de bateria y las pistas ocultas
     private void ApplyNightVision(bool active)
     {
         _isActive = active;

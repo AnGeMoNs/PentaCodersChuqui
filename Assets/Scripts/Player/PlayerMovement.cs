@@ -18,7 +18,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float staminaRegen = 14f;
     [SerializeField] private float minStaminaToRun = 25f;
 
-    [Header("Cámara y Mouse")]
+    [Header("Camara y Mouse")]
     [SerializeField] private Transform cameraHolder;
     [SerializeField] private float mouseSensitivity = 0.12f;
     [SerializeField] private float maxLookAngle = 80f;
@@ -75,6 +75,7 @@ public class PlayerMovement : MonoBehaviour
 
     #region CLASS_METHODS
 
+    // Mueve la camara con el mouse y limita el angulo vertical
     private void RotateView()
     {
         if (Mouse.current == null || cameraHolder == null) return;
@@ -86,6 +87,7 @@ public class PlayerMovement : MonoBehaviour
         cameraHolder.localEulerAngles = new Vector3(_pitch, 0f, 0f);
     }
 
+    // Baja la altura del collider y de la camara cuando se mantiene Ctrl
     private void UpdateCrouch()
     {
         Keyboard kb = Keyboard.current;
@@ -93,6 +95,7 @@ public class PlayerMovement : MonoBehaviour
 
         bool crouchInput = kb.leftCtrlKey.isPressed || kb.rightCtrlKey.isPressed;
 
+        // No levantarse si hay algo justo encima de la cabeza
         if (!crouchInput && _isCrouching)
         {
             Vector3 origin = transform.position + Vector3.up * crouchHeight;
@@ -120,6 +123,7 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // Lee WASD, calcula la velocidad segun estado y aplica gravedad
     private void MovePlayer()
     {
         Keyboard kb = Keyboard.current;
@@ -135,6 +139,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 dir = transform.right * x + transform.forward * z;
         if (dir.sqrMagnitude > 1f) dir.Normalize();
 
+        // Solo corre hacia adelante y si no esta agachado ni cansado
         bool wantsRun = (kb.leftShiftKey.isPressed || kb.rightShiftKey.isPressed) && z > 0f && !_isCrouching;
         _isRunning = wantsRun && !_isExhausted && _currentStamina > 0f;
 
@@ -155,6 +160,7 @@ public class PlayerMovement : MonoBehaviour
         PlayFootsteps(dir.sqrMagnitude > 0.05f && _controller.isGrounded);
     }
 
+    // Gasta estamina al correr y la regenera al caminar o estar quieto
     private void UpdateStamina()
     {
         if (_isRunning)

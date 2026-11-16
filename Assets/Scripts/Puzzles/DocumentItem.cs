@@ -16,6 +16,7 @@ public class DocumentItem : Interactable
 
     #region CLASS_METHODS
 
+    // Abre el panel de lectura y pausa el movimiento hasta que se cierre
     public override void Interact(PlayerInteraction player)
     {
         AudioManager.Instance.PlaySFX(readClip);
@@ -27,6 +28,7 @@ public class DocumentItem : Interactable
     {
         GameManager.Instance.SetGameplayInputEnabled(true);
 
+        // Si es el expediente de Sebastian, al cerrarlo parte la secuencia final
         if (isFinalExpediente && !_endingActivated)
         {
             _endingActivated = true;
