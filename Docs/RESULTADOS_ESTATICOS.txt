@@ -1,0 +1,37 @@
+REVISIÓN 16 — comprobaciones de los archivos actuales, fuera de Unity
+
+verify_project.py
+PASS syntax: 20 C# files (not a Unity compilation)
+PASS models: 60 meshes; indices, normals and nondegenerate faces
+PASS audio: 41 WAVs; individual peaks below -6dBFS (runtime mix unmeasured)
+PASS navigation: 498 cells (expanded asymmetric hospital); logical progression reachable (physical furniture navigation still needs Unity)
+PASS progression: unique generator solution, toy order, archive code and ending requirements
+PASS revision: night-vision wiring; no photo mechanism; three physical clue replacements; legacy save migration present
+PENDING: compile/play in Unity; frame rate; runtime audio mix; Windows build.
+PASS: camera-only illumination, manual reload and spare battery save field.
+
+verify_materials.py
+PASS: all UV triangles nondegenerate; material slots constant; 60 meshes; 307544 triangles total across unique assets.
+PASS: three 4096x2048 atlases; correct linear mask and normal import settings.
+PENDING: Unity shader compilation, close-up lighting, memory and frame-time measurement.
+PASS: additional atlas and linear material maps.
+PASS: all triangle windings agree with shading normals, including broken glass.
+
+verify_sebastian.py
+PASS: 17-bone hierarchy, valid normalized skin weights, bind-pose reconstruction and 25 finite chase poses.
+PASS: offline reference foot height range: -0.0 to 0.095 m; jaw and limbs move.
+PASS: 7 recorded voice derivatives at 48kHz and 1 original footstep, bounded peaks and quiet endpoints.
+PENDING: Unity compilation, in-game rig motion, listening and frame-time measurement.
+PASS: character material channels, four native 1254px maps, linear normal data and recorded-source credits.
+
+verify_horror_director.py
+PASS: 206 attack/recognition reference poses, finite skinning, feet supported and geometry inside renderer bounds.
+PASS: three distinct attack silhouettes at impact.
+PASS: three synchronized 16s/48kHz score layers, loop boundaries and conservative full-layer peak sum.
+PASS: recognition, swing and impact cues have bounded peaks and faded endpoints.
+PENDING: Unity combat timing tests, real colliders, audio transitions, shader compilation and playtest.
+
+audit_layout.py
+PASS: 320 actual model placements parsed; floor-standing props aligned with floor.
+Conservative floor-furniture AABB overlap candidates: 0
+PASS: final moved-bed layout and six corrected tabletop/shelf contacts.
