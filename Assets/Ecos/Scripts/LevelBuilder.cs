@@ -172,7 +172,17 @@ namespace Ecos
             foreach(Light l in hospitalLights)enemy.RegisterLamp(l);
             Material ghostMaterial=new Material(Resources.Load<Shader>("Shaders/Ghost")){name="Sebastian_Presencia"};ModelLibrary.BindTextures(ghostMaterial);
             enemy.visual=SebastianRig.Create(actor.transform,ghostMaterial).transform;enemy.visual.gameObject.SetActive(false);
-            GameObject systems=new GameObject("Sistemas de juego");systems.transform.SetParent(root,false);AudioDirector audio=systems.AddComponent<AudioDirector>();GameSession session=systems.AddComponent<GameSession>();session.Player=player;session.Map=map;session.Enemy=enemy;session.Audio=audio;systems.AddComponent<GameUI>();
+            GameObject systems=new GameObject("Sistemas de juego");systems.transform.SetParent(root,false);AudioDirector audio=systems.AddComponent<AudioDirector>();GameSession session=systems.AddComponent<GameSession>();session.Player=player;session.Map=map;session.Enemy=enemy;session.Audio=audio;GameUI gameUi=systems.AddComponent<GameUI>();
+            // Course-pattern Managers as dedicated scene GameObjects
+            GameObject eventMgrObj=new GameObject("EventManager");eventMgrObj.transform.SetParent(root,false);eventMgrObj.AddComponent<EventManager>();
+            GameObject gameMgrObj=new GameObject("GameManager");gameMgrObj.transform.SetParent(root,false);gameMgrObj.AddComponent<GameManager>();
+            GameObject audioMgrObj=new GameObject("AudioManager");audioMgrObj.transform.SetParent(root,false);AudioManager audioMgr=audioMgrObj.AddComponent<AudioManager>();audioMgr.director=audio;
+            GameObject hudMgrObj=new GameObject("HUDManager");hudMgrObj.transform.SetParent(root,false);HUDManager hudMgr=hudMgrObj.AddComponent<HUDManager>();hudMgr.gameUI=gameUi;
+            GameObject poolMgrObj=new GameObject("ParticlePoolManager");poolMgrObj.transform.SetParent(root,false);poolMgrObj.AddComponent<ParticlePoolManager>();
+            // Ambient Particle Systems (dust motes, basement steam, generator sparks)
+            AddAmbientParticles(root,"Particulas_Polvo_Hospital",new Vector3(0,1.6f,28f),new Vector3(14f,2.6f,50f),new Color(.75f,.78f,.72f,.22f),14f,.045f,.12f);
+            AddAmbientParticles(root,"Particulas_Vapor_Subterraneo",new Vector3(10.4f,1.4f,77f),new Vector3(.6f,.4f,.6f),new Color(.78f,.84f,.88f,.35f),18f,.18f,.65f);
+            AddAmbientParticles(root,"Particulas_Chispas_Generador",new Vector3(-8f,1.1f,77f),new Vector3(.5f,.4f,.5f),new Color(.95f,.68f,.25f,.85f),6f,.035f,1.1f);
             GameObject sun=new GameObject("Luz de luna");sun.transform.SetParent(root,false);sun.transform.rotation=Quaternion.Euler(55,-30,0);Light moon=sun.AddComponent<Light>();moon.type=LightType.Directional;moon.intensity=.075f;moon.shadows=LightShadows.Soft;moon.shadowStrength=.86f;moon.color=new Color(.42f,.52f,.66f);
             if(Application.isPlaying)StaticBatchingUtility.Combine(architecture.gameObject);
             return session;
@@ -262,6 +272,14 @@ namespace Ecos
             Light l=o.AddComponent<Light>();l.type=LightType.Point;l.color=color;l.intensity=strength*.88f;l.range=range*.85f;
             l.shadows=LightShadows.Soft;l.shadowStrength=.92f;l.shadowBias=.012f;l.shadowNormalBias=.12f;l.renderMode=LightRenderMode.ForcePixel;
             hospitalLights.Add(l);
+        }
+        static void AddAmbientParticles(Transform parent,string name,Vector3 pos,Vector3 boxSize,Color color,float rate,float size,float speed)
+        {
+            GameObject o=new GameObject(name);o.transform.SetParent(parent,false);o.transform.localPosition=pos;
+            ParticleSystem ps=o.AddComponent<ParticleSystem>();
+            var main=ps.main;main.loop=true;main.startLifetime=4.5f;main.startSpeed=speed;main.startSize=size;main.startColor=color;main.maxParticles=120;
+            var emission=ps.emission;emission.rateOverTime=rate;
+            var shape=ps.shape;shape.shapeType=ParticleSystemShapeType.Box;shape.scale=boxSize;
         }
     }
 }

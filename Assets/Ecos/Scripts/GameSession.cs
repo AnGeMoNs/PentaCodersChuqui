@@ -343,6 +343,7 @@ namespace Ecos
                     Data.zone=zone;SelectedMapZone=zone;Flag("visited_"+zone);Audio.Zone(zone);
                     if(zone>=2&&!Has("anger_zone_"+zone)){Flag("anger_zone_"+zone);ChangeAnger(6);}
                     Checkpoint();Notify(StoryData.Chapters[zone]+" · "+StoryData.Zones[zone]+" · Usa la cámara IR (Clic Der. + Q) a larga distancia o para ralentizar a Sebastián");Enemy.Encounter();
+                    EventManager.Instance?.TriggerZoneChanged(zone,StoryData.Zones[zone]);
                 }
                 if(Data.zone>=2)ChangeAnger(Time.deltaTime*.012f);
                 if(Player.transform.position.y< -5)Lose("Caíste fuera del recorrido.");
@@ -355,6 +356,11 @@ namespace Ecos
             if(jumpscareRig!=null)jumpscareRig.SetActive(State==SessionState.Dead);
             if(endingRig!=null)endingRig.SetActive(State==SessionState.Ending);
             Time.timeScale=Playing?1:0;AudioListener.pause=State==SessionState.Paused;SetCursor(Playing);
+            if(GameManager.Instance!=null)
+            {
+                GameStates mapped=State==SessionState.Menu?GameStates.GameStart:(State==SessionState.Dead||State==SessionState.Ending)?GameStates.GameOver:GameStates.InGame;
+                GameManager.Instance.SetState(mapped);
+            }
         }
         void SetCursor(bool locked){Cursor.lockState=locked?CursorLockMode.Locked:CursorLockMode.None;Cursor.visible=!locked;}
         public void Pause(){State=SessionState.Paused;SyncPause();}
@@ -399,6 +405,7 @@ namespace Ecos
             if(Panel=="memory"||Panel=="decision")ClosePanel();
             Audio.Play("Memory",.32f);
             Audio.PlayClueSting();
+            EventManager.Instance?.TriggerMemoryUnlocked(index);
         }
         public void FinishMemory(){MemorySubtitleUntil=0;if(Panel=="memory")ClosePanel();}
         public void Read(string id){DocumentId=id;InspectItemId=id;Audio.PlayUIConfirm();OpenPanel("document");}
@@ -420,6 +427,7 @@ namespace Ecos
                     if(Has("steam_purged")){Notify("La línea de vapor ya está estabilizada.");break;}
                     Flag("steam_purged");item.transform.Rotate(0,0,90f);ChangeAnger(-5);
                     Audio.PlayAt("DoorSlide",item.transform.position,.35f);
+                    EventManager.Instance?.TriggerParticleBurst(item.transform.position,new Color(.82f,.88f,.92f,.7f));
                     Checkpoint();Notify("Presión de vapor purgada. El generador trabajará de forma más estable y silenciosa.");break;
                 case "hint":Notify(item.entry);break;
                 case "clue":
@@ -430,7 +438,7 @@ namespace Ecos
                     else if(item.id=="seal")UnlockAndShowDoor(7);
                     Checkpoint();Flashback(item.number);break;
                 case "document":
-                    if(!Data.journal.Contains(item.entry)){Data.journal.Add(item.entry);if(!Data.inventory.Contains(item.entry))Data.inventory.Add(item.entry);ChangeAnger(-2);Audio.Play("Collect");}
+                    if(!Data.journal.Contains(item.entry)){Data.journal.Add(item.entry);if(!Data.inventory.Contains(item.entry))Data.inventory.Add(item.entry);ChangeAnger(-2);Audio.Play("Collect");EventManager.Instance?.TriggerDocumentCollected(item.entry);}
                     Read(item.entry);Checkpoint();break;
                 case "battery":
                     if(Data.spareBatteries>=99){Notify("No puedes llevar más pilas.");break;}
